@@ -3,8 +3,8 @@ layout: post
 title: "Pratik Sheth"
 date: 2016-02-19
 description:
-image: https://picsum.photos/2000/1200?image=1003
-image-sm: https://picsum.photos/500/300?image=1003
+image: daftengineer.github.io/media_assets/big-data.jpg
+image-sm: daftengineer.github.io/media_assets/big-data.jpg
 ---
 <div style="color:black;">
 <p style="text-align:justify;">I have <b>Master of Business Administration</b> degree in <b>Technology Management</b> with engineering specialization in <b>Information Technology</b> with <b>9.11</b> CGPA. I have completed my <b>Bachelor of Engineering</b> in <b>IT</b> with <b>7.9</b> CGPA from Gujarat Technological University.</p>
