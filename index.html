@@ -16,10 +16,12 @@ layout: default
   <div>
     <header>
       <ul class="tabs">
-        <li class="tabs__item">projects</li>
         <li class="tabs__item">about me</li>
+        <li class="tabs__item">projects</li>
       </ul>
     </header>
+    
+    {% include categories-tab.html %}
 
     <div class="tab">
       <ul itemscope itemtype="http://schema.org/Blog">
@@ -50,8 +52,7 @@ layout: default
       {% include archive-link.html %}
     </div>
 
-    {% include categories-tab.html %}
-
+    
   </div>
 
 </section>
