@@ -2,9 +2,46 @@
 layout: default
 ---
 <section class="previews">
-  <div style="color:black;">
-<p style="text-align:justify;">I have <b>Master of Business Administration</b> degree in <b>Technology Management</b> with engineering specialization in <b>Information Technology</b> with <b>9.11</b> CGPA. I have completed my <b>Bachelor of Engineering</b> in <b>IT</b> with <b>7.9</b> CGPA from Gujarat Technological University.</p>
-<p style="text-align:justify;">I am passionate about <b>Big Data Analytics and Machine learning</b>. I have the complete repertoire for jobs associated with both the topic. My skill-set includes depth understanding of <b>Classical machine learning, Deep Learning, MapReduce Architecture, Hadoop Stack (Flume, HDFS, Cassandra, Hive, HBase, Sqoop, YARN, Pig, Mahout, Storm, Zookeeper, Spark, Avro) and Advanced Statistics.</b> I also have in-depth understanding about the <b>economics</b> and <b>finance</b>. I have excellent understanding of <b>JAVA, Scala and Python</b>.</p>
-<p style="text-align:justify;">I have made a <b>scalable machine learning project</b> on <b>optimization of economic credit policy</b> and <b>Stock market prediction using sentiment analytics</b> on news with learning models. I have industrial experience at companies like <b>Larsen and Toubro</b> and <b>Tops Technologies</b>. I also made a small website for State level management festival.</p>
-<p>Check out My Technical portfolio <a href="https://daftengineer.github.io/">here</a></p></div>
+  <div>
+    <a class="nav nav--white" href="{{ site.baseurl }}/">
+      <i class="fa fa-lg fa-arrow-left"></i>
+      <span>Back to Posts</span>
+    </a>
+    {% for post in site.categories[page.title] %}
+      <figure class="absolute-bg preview__img" style="background-image: url('{{ post.image }}');"></figure>
+    {% endfor %}
+    <div class="previews__container">
+      <span>Category</span>
+      <h1>{{ page.title }}</h1>
+    </div>
+  </div>
+
+  <div>
+    <header>
+      <ul class="tabs">
+        <li class="tabs__item">{{ page.title }}</li>
+        <li class="tabs__item">Categories</li>
+      </ul>
+    </header>
+
+    <div class="tab">
+      <ul itemscope itemtype="http://schema.org/Blog">
+        {% for post in site.categories[page.title] %}
+          <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+            <a class="preview__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
+              <span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</span>
+              <h2 class="preview__header" itemprop="name">{{ post.title }}</h2>
+              <p class="preview__excerpt" itemprop="description">{{ post.content | strip_html | truncatewords: 30 }}</p>
+              <span class="preview__more">Read More</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+
+      {% include archive-link.html %}
+    </div>
+
+    {% include categories-tab.html %}
+
+  </div>
 </section>
