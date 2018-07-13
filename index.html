@@ -4,11 +4,7 @@ layout: default
 <section class="previews">
   <div>
     {% for post in paginator.posts %}
-      <figure class="absolute-bg preview__img" style="background-image: url('{{ post.image }}');-webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);"></figure>
+      <figure class="absolute-bg preview__img" style="background-image: url('{{ post.image }}');"></figure>
     {% endfor %}
     <div class="previews__container">
       
