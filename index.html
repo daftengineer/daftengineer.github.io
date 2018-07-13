@@ -16,12 +16,10 @@ layout: default
   <div>
     <header>
       <ul class="tabs">
-        <li class="tabs__item">about me</li>
         <li class="tabs__item">projects</li>
+        <li class="tabs__item">about me</li>
       </ul>
     </header>
-    
-    
 
     <div class="tab">
       <ul itemscope itemtype="http://schema.org/Blog">
@@ -48,12 +46,12 @@ layout: default
           {% endif %}
         </div>
       {% endif %}
-      {% include categories-tab.html %}
 
       {% include archive-link.html %}
     </div>
 
-    
+    {% include categories-tab.html %}
+
   </div>
 
 </section>
