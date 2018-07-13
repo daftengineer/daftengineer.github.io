@@ -7,9 +7,9 @@ google_analytics:
 
 # SEO settings
 title: Pratik Sheth
-description: 
-url: ""
-twitter_username: daftengineer
+description: Somewhat dexterous engineer with range of skills
+url: https://daftengineer.github.io
+twitter_username: @daftengineer
 default_img: 
 
 # Profile settings
@@ -17,7 +17,8 @@ name: Pratik Sheth
 profile_img: 
 profile: 
 social:
-  github: 
+  github: https://daftengineer.github.com
+  twitter: https://twitter.com/daftengineer
 
 # Build settings
 exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
