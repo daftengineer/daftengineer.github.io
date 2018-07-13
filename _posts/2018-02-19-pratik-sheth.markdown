@@ -3,7 +3,7 @@ layout: post
 title: "Pratik Sheth"
 date: 2018-02-19
 description:
-image: https://picsum.photos/2000/1200?image=1003
+image: https://daftengineer.github.io/media_assets/Webp.net-resizeimage.jpg
 image-sm: https://picsum.photos/500/300?image=1003
 ---
 <div style="color:black;">
