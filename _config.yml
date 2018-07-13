@@ -6,14 +6,14 @@ paginate_path: "/blog/page-:num"
 google_analytics: 
 
 # SEO settings
-title: Trophy
+title: Pratik Sheth
 description: 
 url: ""
-twitter_username: 
+twitter_username: daftengineer
 default_img: 
 
 # Profile settings
-name: 
+name: Pratik Sheth
 profile_img: 
 profile: 
 social:
