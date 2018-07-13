@@ -3,7 +3,7 @@ layout: post
 title: "Pratik Sheth"
 date: 2016-02-19
 description:
-image: https://daftengineer.github.io/media_assets/big-data.jpg
+image: "background-color: #98fb98; background-position: center center; background-repeat: no-repeat; background: -webkit-gradient(radial, center center, 0, center center, 460, from(#98fb98), to(#2F2727)); background: -webkit-radial-gradient(circle, #98fb98, #2F2727); background: -moz-radial-gradient(circle, #98fb98, #2F2727); background: -ms-radial-gradient(circle, #98fb98, #2F2727);"
 image-sm: https://daftengineer.github.io/media_assets/big-data.jpg
 ---
 <div style="color:black;">
