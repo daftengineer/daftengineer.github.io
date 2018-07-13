@@ -1,34 +1,8 @@
 <div class="tab">
-  <ul class="cards">
-    {% capture cats %}
-      {% for cat in site.categories %}
-        {{ cat | first }}
-      {% endfor %}
-    {% endcapture %}
-    {% assign sortedCats = cats | split: ' ' | sort %}
+  <div style="color:black;">
+<p style="text-align:justify;">I have <b>Master of Business Administration</b> degree in <b>Technology Management</b> with engineering specialization in <b>Information Technology</b> with <b>9.11</b> CGPA. I have completed my <b>Bachelor of Engineering</b> in <b>IT</b> with <b>7.9</b> CGPA from Gujarat Technological University.</p>
+<p style="text-align:justify;">I am passionate about <b>Big Data Analytics and Machine learning</b>. I have the complete repertoire for jobs associated with both the topic. My skill-set includes depth understanding of <b>Classical machine learning, Deep Learning, MapReduce Architecture, Hadoop Stack (Flume, HDFS, Cassandra, Hive, HBase, Sqoop, YARN, Pig, Mahout, Storm, Zookeeper, Spark, Avro) and Advanced Statistics.</b> I also have in-depth understanding about the <b>economics</b> and <b>finance</b>. I have excellent understanding of <b>JAVA, Scala and Python</b>.</p>
+<p style="text-align:justify;">I have made a <b>scalable machine learning project</b> on <b>optimization of economic credit policy</b> and <b>Stock market prediction using sentiment analytics</b> on news with learning models. I have industrial experience at companies like <b>Larsen and Toubro</b> and <b>Tops Technologies</b>. I also made a small website for State level management festival.</p>
+<p>Check out My Technical portfolio <a href="https://daftengineer.wordpress.com/posts/">here</a></p></div>
 
-    {% for category in sortedCats %}
-      <li class="card">
-        {% assign cat_dir = site.category_dir | default: 'category' %}
-        <a class="card__link" href="{{ site.baseurl }}/{{ cat_dir }}/{{ category | downcase | slugify }}/">
-          {% for post in site.categories[category] limit: 1 %}
-            <div class="card__img">
-              {% if post.image-sm %}
-                <figure class="absolute-bg" style="background-image: url('{{ post.image-sm }}');"></figure>
-              {% else %}
-                <figure class="absolute-bg" style="background-image: url('{{ post.image }}');"></figure>
-              {% endif %}
-            </div>
-          {% endfor %}
-          <div class="card__container">
-            <h2 class="card__header">{{ category }}</h2>
-            <p class="card__count">{{ site.categories[category] | size }} Posts</p>
-            <span class="card__more">View All</span>
-          </div>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  {% include archive-link.html %}
 </div>
