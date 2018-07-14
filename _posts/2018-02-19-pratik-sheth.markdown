@@ -3,7 +3,7 @@ layout: post
 title: "Pratik Sheth"
 date: 2018-02-19
 description:
-image: "background-color: #ffffff"
+image: "background-color: #000000"
 image-sm: https://daftengineer.github.io/media_assets/Webp.net-resizeimage.jpg
 ---
 <!--background-color: #2F2727;  background-image: url(images/radial_bg.png);  background-position: center center;  background-repeat: no-repeat;  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#1a82f7), to(#2F2727));  background: -webkit-radial-gradient(circle, #1a82f7, #2F2727);  background: -moz-radial-gradient(circle, #1a82f7, #2F2727);  background: -ms-radial-gradient(circle, #1a82f7, #2F2727); -->
