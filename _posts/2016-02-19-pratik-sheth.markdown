@@ -3,7 +3,7 @@ layout: post
 title: "Pratik Sheth"
 date: 2016-02-19
 description:
-image: "background-color: 'rgb(31, 167, 197)'"
+image: "background-color: #1fa7c5"
 image-sm: 
 ---
 <!--background-color: rgb(31, 167, 197); background-position: center center; background-repeat: no-repeat; background: -webkit-gradient(radial, center center, 0, center center, 460, from(#98fb98), to(#2F2727)); background: -webkit-radial-gradient(circle, #98fb98, #2F2727); background: -moz-radial-gradient(circle, #98fb98, #2F2727); background: -ms-radial-gradient(circle, #98fb98, #2F2727);-->
