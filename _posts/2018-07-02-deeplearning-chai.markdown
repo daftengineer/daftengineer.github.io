@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Explaination Deep Learning with the example of Tea"
+title: "EXPLAINATION OF DEEP LEARNING WITH AN ANALOGY OF TEA"
 date: 2018-07-02
 description: Analogy of DEEP LEARNING with chai example
-image: "background-image:url('https://daftengineer.github.io/media_assets/deepchai.jpg');"
+image: "background-image:url('https://daftengineer.github.io/media_assets/deepchai.jpg');filter: grayscale(100%);"
 image-sm: 
 ---
 <!--background-color: rgb(31, 167, 197); background-position: center center; background-repeat: no-repeat; background: -webkit-gradient(radial, center center, 0, center center, 460, from(#98fb98), to(#2F2727)); background: -webkit-radial-gradient(circle, #98fb98, #2F2727); background: -moz-radial-gradient(circle, #98fb98, #2F2727); background: -ms-radial-gradient(circle, #98fb98, #2F2727);-->
