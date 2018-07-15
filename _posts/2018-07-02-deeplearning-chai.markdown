@@ -7,7 +7,7 @@ image: "background-image:url('https://daftengineer.github.io/media_assets/deepch
 image-sm: 
 ---
 
-<div style="color:black;a{font-weight:bold;font-color:black;text-decoration:none;}">
+<div style="color:black;">
   
   <p></p>
   <p style="text-align:justify;">
