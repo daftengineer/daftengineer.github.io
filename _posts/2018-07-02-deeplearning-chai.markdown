@@ -13,7 +13,7 @@ image-sm:
   <p style="text-align:justify;">
     Deep Learning is most consequential algorithm of 21<sup>st</sup> century, there is no doubt about it but majority of newcomers in Machine learning field, find it really hard to grasp the concept of it. Here is just a small post in which I would like to explain the basics of deep learning and little bit of the detail about future of it, all with the example of making a tea. This might be alot more intuitive than a typical architectural example used by most of books out in market.
   </p>
-  <img src="https://daftengineer.github.io/media_assets/process.jpg" />
+  <img src="https://daftengineer.github.io/media_assets/process.jpg" style="" />
   <p style="text-align:justify;">
     Here I have oversimplified the concept but the gist of it is accurate.
   </p>
