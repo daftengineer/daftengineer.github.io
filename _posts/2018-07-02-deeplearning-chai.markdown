@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pratik Sheth"
+title: "Explaination Deep Learning with the example of Tea"
 date: 2018-07-02
 description: Analogy of DEEP LEARNING with chai example
 image: "background-image:url('https://daftengineer.github.io/media_assets/deepchai.jpg');"
