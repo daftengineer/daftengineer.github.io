@@ -436,7 +436,9 @@
   }
 
   a {
-    border-bottom: 1px solid $color-alpha;
+    /*border-bottom: 1px solid $color-alpha;*/
+    font-color:black;
+    font weight:bold;
   }
 
   img {
