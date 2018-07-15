@@ -21,7 +21,7 @@ image-sm:
     We do optimisation in every decision of our life. In layman's term optimisation is trade off. We do trade off between work or life, spending or saving, present benefits vs future benefits etc. Now, to get the best results, we need to find the balance among all these. In a nutshell, all the machine learning algorithms are optimising the result we have got to the result we want. Now we are clear on what optimisation is and what the goal of machine learning algorithm is, we can start with deep learning.
   </p>
   <p style="text-align:justify;">
-    Imagine we are making world's best tea and we are given whole kitchen, full of all ingredients, whether we need them or not for making tea. Now imagine, Person who is making tea doesn't know what all ingredients are for and how much to use them. Only way to know the ingredients is by tasting the tea made by him. Now chef would mix random things and give it to us and we will say whether it was good of bad. We have list of things, we want from a tea to have in order to consider it the best. those things are:
+    Imagine we are making world's best tea and we are given whole kitchen, full of all ingredients, whether we need them or not for making tea. Now imagine, Person who is making tea doesn't know what all ingredients are for and how much to use them. Only way to know the ingredients is by tasting the tea made by him. Now chef would mix random things and give it to us and we will say whether it was good or bad. We have list of things, we want from a tea to have in order to consider it the best. those things are:
   </p>
   <ul>
     <li>Color</li>
