@@ -7,7 +7,9 @@ image: "background-image:url('https://daftengineer.github.io/media_assets/deepch
 image-sm: 
 ---
 
-<div style="color:black;"><p></p>
+<div style="color:black;">
+  <img src="https://daftengineer.github.io/media_assets/process.png" />
+  <p></p>
   <p style="text-align:justify;">
     Deep Learning is most consequential algorithm of 21<sup>st</sup> century, there is no doubt about it but majority of newcomers in Machine learning field, find it really hard to grasp the concept of it. Here is just a small post in which I would like to explain the basics of deep learning and little bit of the detail about future of it, all with the example of making a tea. This might be alot more intuitive than a typical architectural example used by most of books out in market
   </p>
@@ -27,10 +29,14 @@ image-sm:
     <li>Temperature</li>
   </ul>
  <p style="text-align:justify;">
-   We will judge the tea with these matrix and tell chef what he needs to work on. So chef goes back to kitchen considers what we told him and tries to recall what he added and what he needs to do in order to make those specific changes to make good tea. Now if this thing happens thousands of time evemtually we will get to better tea we want. In deep learning we exactly do this, we input the data and compare the output with ideal source, this is called training phase. Now to make appropriate changes we need to use optimisation algorithm like <a href="https://en.wikipedia.org/wiki/Stochastic_gradient_descent">stochastic gradient descent</a>. In tea making process, what chef did was to recall what he added and made changes, these changes are done using optimisation algorithm and the process of recalling the ingredient is called <a href="https://en.wikipedia.org/wiki/Backpropagation">backpropogation</a>. The process of comparing the end result (tea) with accpetable version of tea, is called <a href="https://en.wikipedia.org/wiki/Loss_function">Cost Function</a>. Comparing the current tea with the best tea ever is called Objective function.
+   We will judge the tea with these matrix and tell chef what he needs to work on. So chef goes back to kitchen considers what we told him and tries to recall what he added and what he needs to do in order to make those specific changes to make good tea. Now if this thing happens thousands of time evemtually we will get to better tea we want. In deep learning we exactly do this, we input the data and compare the output with ideal source, this is called training phase. Now to make appropriate changes we need to use optimisation algorithm like <a href="https://en.wikipedia.org/wiki/Stochastic_gradient_descent">stochastic gradient descent</a>. In tea making process, what chef did was to recall what he added and made changes, these changes are done using optimisation algorithm and the process of recalling the ingredient is called <a href="https://en.wikipedia.org/wiki/Backpropagation">backpropogation</a>. The process of comparing the end result (tea) with accpetable version of tea, is called <a href="https://en.wikipedia.org/wiki/Loss_function">Cost Function</a>. Comparing the current tea with the best tea ever is called objective function.
   </p>
   <p style="text-align:justify;">
     Many a times, It might happen that chef forgets overtime what he added on first go. Happens with deep learning algorithms too, it is called <a href="https://en.wikipedia.org/wiki/Vanishing_gradient_problem">vanishing gradient</a>. So what he does, is to make batches of sequence and write it on paper so that he doesn't forget it. In deep learning terms the batches are called epochs and writing on paper is like spilling to nonvolatile memory. Now if we repeat this process thousands of time on hundreds of epochs we will get best tea that particular chef can make. Here we didn't use all the ingredients available in kitchen because we didn't need everyone of them. The fact that we used specific ingredients is called <a href="https://en.wikipedia.org/wiki/Activation_function">activation</a> of neurons in deep learning. 
   </p>
+  <p style="text-align:justify;">
+    
+  </p>
+
   
 </div>
