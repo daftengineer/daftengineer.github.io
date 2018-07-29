@@ -3,7 +3,7 @@ layout: post
 title: "EXPLAINATION OF DEEP LEARNING USING TEA"
 date: 2018-07-02
 description: Analogy for DEEP LEARNING with Tea 
-image: "background-image:url('https://daftengineer.github.io/media_assets/deepchai.jpg');filter: grayscale(100%);"
+image: "background-image:url('https://daftengineer.github.io/media_assets/trianglify.png');filter: grayscale(100%);"
 image-sm: 
 ---
 
