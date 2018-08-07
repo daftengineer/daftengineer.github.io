@@ -3,7 +3,7 @@ layout: post
 title: "10 Day Machine Learning Challenge"
 date: 2018-08-07
 description: Using different Apache Spark and TensorFlow Library, I will be making a machine learning project everyday for next 10 days
-image: "background-image: url('https://daftengineer.github.io/media_assets/machine_learning.jpg')"
+image: "background-image: url('https://daftengineer.github.io/media_assets/machine_learning.jpg');filter:invert(100%);"
 image-sm: https://daftengineer.github.io/media_assets/machine_learning.jpg
 ---
 <!--background-color: #2F2727;  background-image: url(images/radial_bg.png);  background-position: center center;  background-repeat: no-repeat;  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#1a82f7), to(#2F2727));  background: -webkit-radial-gradient(circle, #1a82f7, #2F2727);  background: -moz-radial-gradient(circle, #1a82f7, #2F2727);  background: -ms-radial-gradient(circle, #1a82f7, #2F2727); -->
