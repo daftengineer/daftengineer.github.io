@@ -20,19 +20,19 @@ image-sm: https://daftengineer.github.io/media_assets/machine_learning.jpg
 <ul>
         <li>Apache Spark</li>
            <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>Bank Fraud Detection</li>
+              <li>Light Gradient Boosted Tree</li>
+              <li>Prediction of outcome of pregnancy</li>
+              <li>EXploration of USA Pollution Data</li>
+              <li>Collaborative Filtering using Netflix Dataset</li>
           </ul>
-        <li>TensorFlow/scikit-learn/kera</li>
+        <li>TensorFlow/scikit-learn/keras</li>
           <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>Explorative Analysis on Mobile App Data</li>
+              <li>Exploration of Crimes in India</li>
+              <li>Deep learning based Sentiment analysis on Universal Basic Income Survey</li>
+              <li>Impact of News on Stock pricing</li>
+              <li>Image Captioning</li>
           </ul>
     </ul>
     
