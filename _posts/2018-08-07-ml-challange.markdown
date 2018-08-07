@@ -10,7 +10,7 @@ image-sm: https://daftengineer.github.io/media_assets/machine_learning.jpg
 <div style="color:black;"><p></p>
 <p style="text-align:justify;">Here I will be trying on 10 day Machine Learning Challenge in order to brush up my machine learning skills and tackling some problem which might impact alot of people. These projects aren't end to end products. These projects serve the purpose of problem solving rather than business perspective.</p>
 <p style="text-align:justify;">That being said, half of these projects are targetted to be scalable. The reason is, if I want to, I can change and modify the product for future use and put it in production environment.</p>
-<p style="text-align:justify;"> These are widely divided into 2 categories.<br />
+<p style="text-align:justify;"> These projects are widely divided into 2 categories.<br />
   <ol>
     <li>Project Based on Apache Spark</li>
     <li>Project Based on TensorFlow/scikit-learn/keras</li>
