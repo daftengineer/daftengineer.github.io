@@ -36,6 +36,6 @@ image-sm: https://daftengineer.github.io/media_assets/machine_learning.jpg
           </ul>
     </ul>
     
-    </p>
+   </p>
 <p>&nbsp;</p>
 </div>
