@@ -30,7 +30,7 @@ image-sm: https://daftengineer.github.io/media_assets/machine_learning.jpg
           <ul>
               <li>Explorative Analysis on Mobile App Data</li>
               <li>Exploration of Crimes in India</li>
-              <li>Deep learning based Sentiment analysis on Universal Basic Income Survey</li>
+              <li>Deep Learning based Sentiment analysis on Universal Basic Income Survey</li>
               <li>Impact of News on Stock pricing</li>
               <li>Image Captioning</li>
           </ul>
