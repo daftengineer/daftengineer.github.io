@@ -12,13 +12,13 @@ image-sm: https://daftengineer.github.io/media_assets/machine_learning.jpg
 <p style="text-align:justify;">That being said, half of these projects are targetted to be scalable. The reason is, if I want to, I can change and modify the product for future use and put it in production environment.</p>
 <p style="text-align:justify;"> These projects are widely divided into 2 categories.<br />
   <ol>
-    <li>Project Based on Apache Spark</li>
-    <li>Project Based on TensorFlow/scikit-learn/keras</li>
+    <li>Project Based on <b>Apache Spark</b></li>
+    <li>Project Based on <b>TensorFlow/scikit-learn/keras</b></li>
   </ol>
   </p>
 <p style="text-align:justify;">Here is the list of Projects I will be doing from 11th of August to 21 of August:
 <ul>
-        <li>Apache Spark</li>
+        <li><b>Apache Spark</b></li>
            <ul>
               <li>Bank Fraud Detection</li>
               <li>Light Gradient Boosted Tree</li>
@@ -26,7 +26,7 @@ image-sm: https://daftengineer.github.io/media_assets/machine_learning.jpg
               <li>EXploration of USA Pollution Data</li>
               <li>Collaborative Filtering using Netflix Dataset</li>
           </ul>
-        <li>TensorFlow/scikit-learn/keras</li>
+        <li><b>TensorFlow/scikit-learn/keras</b></li>
           <ul>
               <li>Explorative Analysis on Mobile App Data</li>
               <li>Exploration of Crimes in India</li>
