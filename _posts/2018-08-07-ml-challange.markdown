@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "CREDIT POLICY PREDICTION USING APACHE SPARK"
+title: "10 Day Machine Learning Challenge"
 date: 2018-07-01
 description: Apache spark is used as an execution engine for scala based GARCH implementation
-image: "background-image: url('https://daftengineer.github.io/media_assets/eco_big.jpg')"
-image-sm: https://daftengineer.github.io/media_assets/eco_big.jpg
+image: "background-image: url('https://daftengineer.github.io/media_assets/machine_learning.jpg')"
+image-sm: https://daftengineer.github.io/media_assets/machine_learning.jpg
 ---
 <!--background-color: #2F2727;  background-image: url(images/radial_bg.png);  background-position: center center;  background-repeat: no-repeat;  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#1a82f7), to(#2F2727));  background: -webkit-radial-gradient(circle, #1a82f7, #2F2727);  background: -moz-radial-gradient(circle, #1a82f7, #2F2727);  background: -ms-radial-gradient(circle, #1a82f7, #2F2727); -->
 <div style="color:black;"><p></p>
