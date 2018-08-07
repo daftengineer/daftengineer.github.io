@@ -2,7 +2,7 @@
 layout: post
 title: "10 Day Machine Learning Challenge"
 date: 2018-07-01
-description: Apache spark is used as an execution engine for scala based GARCH implementation
+description: Using different Apache Spark and TensorFlow Library, I will be making a machine learning project everyday for next 10 days
 image: "background-image: url('https://daftengineer.github.io/media_assets/machine_learning.jpg')"
 image-sm: https://daftengineer.github.io/media_assets/machine_learning.jpg
 ---
