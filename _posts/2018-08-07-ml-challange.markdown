@@ -3,7 +3,7 @@ layout: post
 title: "10 Day Machine Learning Challenge"
 date: 2018-08-07
 description: Using different Apache Spark and TensorFlow Library, I will be making a machine learning project everyday for next 10 days
-image: "background-image: url('https://daftengineer.github.io/media_assets/machine_learning.jpg');filter:invert(100%);"
+image: "background-image: url('https://daftengineer.github.io/media_assets/machine_learning.jpg');filter:invert(100%);filter:blur(10%);"
 image-sm: https://daftengineer.github.io/media_assets/machine_learning.jpg
 ---
 
