@@ -23,7 +23,7 @@ image-sm: https://daftengineer.github.io/media_assets/machine_learning.jpg
               <li>Bank Fraud Detection</li>
               <li>Light Gradient Boosted Tree</li>
               <li>Prediction of outcome of pregnancy</li>
-              <li>EXploration of USA Pollution Data</li>
+              <li>Exploring of USA Pollution Data</li>
               <li>Collaborative Filtering using Netflix Dataset</li>
           </ul>
         <li><b>TensorFlow/scikit-learn/keras</b></li>
