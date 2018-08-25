@@ -25,7 +25,7 @@ image-sm: https://daftengineer.github.io/media_assets/fraud.jpg
   <img src = "https://daftengineer.github.io/media_assets/ml1p9.jpg" />
   <p style="text-align:justify;">Finally, We can print the result</p>
   <img src = "https://daftengineer.github.io/media_assets/ml1p10.jpg" />
-  <p style="text-align:justify;">Considering its Simplicity, AUC of 0.74 is quite good which indicates effectiveness of the algorithm </p>
+  <p style="text-align:justify;">Considering its Simplicity,<b> AUC of 0.74 </b>is quite good which indicates effectiveness of the algorithm </p>
   <p style="text-align:justify;">Source code for this article can be found <a href = "https://github.com/daftengineer/MachineLearningProjects/blob/master/FraudDetectionSparkShellScript.scala">here</a></p>
 <p>&nbsp;</p>
 </div>
