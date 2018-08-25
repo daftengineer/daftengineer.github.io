@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MACHINE LEARNING CHALLANGE"
+title: "MACHINE LEARNING CHALLENGE"
 date: 2018-08-23
 description: Using different Apache Spark and TensorFlow Library, I will be making a machine learning project everyday for next 10 days
 image: "background-image: url('https://daftengineer.github.io/media_assets/machine_learning.jpg');filter:invert(100%);filter:blur(10%);"
