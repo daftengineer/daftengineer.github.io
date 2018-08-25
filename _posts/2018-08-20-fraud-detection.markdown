@@ -16,6 +16,14 @@ image-sm: https://daftengineer.github.io/media_assets/fraud.jpg
     <p style="text-align:justify;">Now we are transform section. After Loading we need to cleaning out all the column which arent necessary for the analysis </p><img src = "https://daftengineer.github.io/media_assets/ml1p2.jpg" />
     <p style="text-align:justify;">Now we need to make index the string to make it work with algorithm</p><img src = "https://daftengineer.github.io/media_assets/ml1p3.jpg" />
     <p style="text-align:justify;">After transformation We would be able to see the dataframe like below: </p><img src = "https://daftengineer.github.io/media_assets/ml1p4.jpg" />
-    <p style="text-align:justify;"></p>
+    <p style="text-align:justify;">In order to Put it through algorithm we need to vector of the row values so we will vectorize the row</p><img src = "https://daftengineer.github.io/media_assets/ml1p5.jpg" />
+  <p style="text-align:justify;">So this is the step in which we will normalize the vector so we can analyse it without huge overhead and without spiking to too low or too high value as normalization will make those values in 0 to 1 interval</p>
+  <img src = "https://daftengineer.github.io/media_assets/ml1p6.jpg" />
+  <img src = "https://daftengineer.github.io/media_assets/ml1p7.jpg" />
+  <p style="text-align:justify;">Now we will Split the dataframe in to parts one is training(80%) and another is testing(20%). After that we will apply Logistic Regression, Which requires model to be built first and then getting tested. After the test we will store the result and Compare it Using the matrices</p>
+  <img src = "https://daftengineer.github.io/media_assets/ml1p8.jpg" />
+  <img src = "https://daftengineer.github.io/media_assets/ml1p9.jpg" />
+  <p style="text-align:justify;">Finally, We can print the result</p>
+  <img src = "https://daftengineer.github.io/media_assets/ml1p10.jpg" />
 <p>&nbsp;</p>
 </div>
