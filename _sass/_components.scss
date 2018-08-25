@@ -384,14 +384,14 @@
  * Post
  */
 .post {
-  width: 90%;
+  width: 95%;
   max-width: $mq-md;
   margin: 0 auto;
 
   font-family: $font-post;
 
   @media (min-width: $mq-md) {
-    width: 90%;
+    width: 95%;
   }
 
   & > *:last-child {
