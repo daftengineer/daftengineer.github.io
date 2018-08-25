@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Machine Learning Challenge"
-date: 2018-08-07
+date: 2018-08-23
 description: Using different Apache Spark and TensorFlow Library, I will be making a machine learning project everyday for next 10 days
 image: "background-image: url('https://daftengineer.github.io/media_assets/machine_learning.jpg');filter:invert(100%);filter:blur(10%);"
 image-sm: https://daftengineer.github.io/media_assets/machine_learning.jpg
@@ -20,8 +20,8 @@ image-sm: https://daftengineer.github.io/media_assets/machine_learning.jpg
 <ul>
         <li><b>Apache Spark</b></li>
            <ul>
-              <li>Bank Fraud Detection</li>
-              <li>Light Gradient Boosted Tree</li>
+              <li><a href = "https://daftengineer.github.io/2018/08/24/fraud-detection/">Bank Fraud Detection using Logistic Regression</a></li>
+              <li>Fraud Detection using Gradient Boosted Tree</li>
               <li>Prediction of outcome of pregnancy</li>
               <li>Exploring of USA Pollution Data</li>
               <li>Collaborative Filtering using Netflix Dataset</li>
