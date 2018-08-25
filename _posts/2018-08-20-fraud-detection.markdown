@@ -17,10 +17,10 @@ image-sm: https://daftengineer.github.io/media_assets/fraud.jpg
     <p style="text-align:justify;">String datatype don't get analysed by the algorithm so we need to make the index of this string values. Here we know there are 5 strings so we can take the advantage of this fact but we will use StringIndexer to be cautious</p><img src = "https://daftengineer.github.io/media_assets/ml1p3.jpg" />
     <p style="text-align:justify;">After transformation, We would be able to see the dataframe like below: </p><img src = "https://daftengineer.github.io/media_assets/ml1p4.jpg" />
     <p style="text-align:justify;">In order to put values through algorithm we need vector of the row values so we will vectorize the row. The point here to be noted, is that, as we go on through different stages of pipeline, we remove all the null rows we have so that doesn't impact our last stages.</p><img src = "https://daftengineer.github.io/media_assets/ml1p5.jpg" />
-  <p style="text-align:justify;">So this is the step in which we will normalize the vector so we can analyse it without huge overhead and without spiking to too low or too high value as normalization will make those values in 0 to 1 interval</p>
+  <p style="text-align:justify;">So, this is the step in which we will normalize the vector so we can analyse it without huge overhead and without spiking to too low or too high value as normalization will keep those values in 0 to 1 interval</p>
   <img src = "https://daftengineer.github.io/media_assets/ml1p6.jpg" />
   <img src = "https://daftengineer.github.io/media_assets/ml1p7.jpg" />
-  <p style="text-align:justify;">Now we will Split the dataframe in to parts one is training(80%) and another is testing(20%). After that we will apply Logistic Regression, Which requires model to be built first and then getting tested. After the test we will store the result and Compare it Using the matrices</p>
+  <p style="text-align:justify;">Now, we will Split the dataframe in to parts one is training(80%) and another is testing(20%). After that we will apply Logistic Regression, Which requires model to be built first and then getting tested. After the test we will store the result and Compare it Using the matrices</p>
   <img src = "https://daftengineer.github.io/media_assets/ml1p8.jpg" />
   <img src = "https://daftengineer.github.io/media_assets/ml1p9.jpg" />
   <p style="text-align:justify;">Finally, We can print the result</p>
