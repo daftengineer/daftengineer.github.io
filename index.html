@@ -3,7 +3,9 @@ layout: default
 ---
 <section class="previews">
   <div>
-      <figure class="absolute-bg preview__img" style="background-color:#277CA3;"></figure>
+      {% for post in paginator.posts %}
+       <figure class="absolute-bg preview__img" style="background-color:#277CA3;"></figure>
+      {% endfor %}
     <div class="previews__container">
       
       <h1>{{ site.title }}</h1>
