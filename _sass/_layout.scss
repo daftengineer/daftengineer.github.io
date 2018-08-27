@@ -57,7 +57,7 @@ section {
         left: 0;
 
         height: 100%;
-        width: 25%;
+        width: 30%;
       }
 
       &:after {
@@ -69,7 +69,7 @@ section {
       min-height: 100vh;
 
       @media (min-width: $mq-md) {
-        margin-left: 25%;
+        margin-left: 30%;
       }
     }
   }
