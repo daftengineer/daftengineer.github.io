@@ -8,7 +8,7 @@ image-sm: https://daftengineer.github.io/media_assets/Fraud2.jpg
 ---
 
 <div style="color:black;"><p></p>
-<p style="text-align:justify;">Here, we are going to tackle the same problem as ML1 but with different algorithm. The algorithm is called Gradient Boosted Trees. It is type of decision tree algorithm optimised using </p>
+<p style="text-align:justify;">Here, we are going to tackle the same problem as ML1 but with different algorithm. The algorithm is called Gradient Boosted Trees. It is type of decision tree algorithm optimising differential loss function by using boosting.</p>
 <p style="text-align:justify;"></p>
 <p>&nbsp;</p>
 </div>
