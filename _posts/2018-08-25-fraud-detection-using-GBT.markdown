@@ -16,7 +16,11 @@ image-sm: https://daftengineer.github.io/media_assets/Fraud2.jpg
 <p style="text-align:justify;">We need to remove all other unnecessary column which won't be required for the process of analysis. But we have type column which is in string format and we need that in double as well so we will use StringIndexer. And then using variable "cleanandTransformed" we will make a dataframe to make a single entity and cache it on the memory.</p>
    <img src="https://daftengineer.github.io/media_assets/ml2p3.jpg" />
 <p style="text-align:justify;">Now, In order to input the data in Gradient Boosting Algorithm available in spark we need the data in format of LabeledData and in RDD format so Next we will do exactly the same and split the data in two variable one for training and other for testing.</p>
-<p style="text-align:justify;"></p>
+   <img src="https://daftengineer.github.io/media_assets/ml2p4.jpg" />
+  
+<p style="text-align:justify;">After that we will map the data to LabeledData format RDD and Train the model using training data. Here appropriate hyperparameters are considered in order to get proper result. Then Test data is predicted in code and Mean squared error for test data is also calculated.</p>
+ <img src="https://daftengineer.github.io/media_assets/ml2p5.jpg" />
+ 
 <p style="text-align:justify;"></p>
 <p>&nbsp;</p>
 </div>
