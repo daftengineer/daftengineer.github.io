@@ -25,5 +25,5 @@ image-sm: https://daftengineer.github.io/media_assets/Fraud2.jpg
  <p style="text-align:justify;"> In last Line of code we saved the model for future use. The saved files are compressed with snappy and serialized using parquet. Which can be found in HDFS as show below</p>
    <img src="https://daftengineer.github.io/media_assets/ml2p7.jpg" />
 
-<p style="text-align:justify;">The code in this article can be found <a href="https://github.com/daftengineer/MachineLearningProjects/blob/master/FraudDetectionWithGBT.scala">Here.</a></p>
+<p style="text-align:justify;">The code in this article can be found <a href="https://github.com/daftengineer/MachineLearningProjects/blob/master/FraudDetectionWithGBT.scala">here.</a></p>
 </div>
