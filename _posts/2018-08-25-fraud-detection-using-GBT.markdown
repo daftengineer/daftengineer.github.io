@@ -19,7 +19,7 @@ image-sm: https://daftengineer.github.io/media_assets/Fraud2.jpg
       .master("yarn")<br />
       .getOrCreate()<br />
     import spark.implicits._<br />
-val df2=spark.read.format("csv").option("header","true").option("inferSchema","true")<br />
+val df2=spark.read.format("csv").option("header","true").option("inferSchema","true")
     .load("hdfs://nn01.itversity.com:8020/user/pratiksheth/frauddetectiondata.csv")<br />
     val df = df2.withColumn("isFraud", col("isFraud").cast("double"))<br /></p>
   
