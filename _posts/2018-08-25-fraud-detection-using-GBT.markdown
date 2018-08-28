@@ -20,10 +20,10 @@ image-sm: https://daftengineer.github.io/media_assets/Fraud2.jpg
   
 <p style="text-align:justify;">After that we will map the data to LabeledData format RDD and Train the model using training data. Here appropriate hyperparameters are considered in order to get proper result. Then Test data is predicted in code and Mean squared error for test data is also calculated.</p>
  <img src="https://daftengineer.github.io/media_assets/ml2p5.jpg" />
- <p style="text-align:justify;">Here MSE is 5.487364620938629E-4 which is quite awesome as we just used sample(10MB) data and not the full data. This show how effective the gradient boosted tree algorithm is when it comes to classification.
+ <p style="text-align:justify;">Here MSE is 5.487364620938629E-4 which is quite awesome as we just used sample(10MB) data and not the full data. This show how effective the gradient boosted tree algorithm is when it comes to classification.</p>
    <img src="https://daftengineer.github.io/media_assets/ml2p6.jpg" />
-  In last Line of code we saved the model for future use. The saved files are compressed with snappy and serialized using parquet. Which can be found in HDFS as show below
+ <p style="text-align:justify;"> In last Line of code we saved the model for future use. The saved files are compressed with snappy and serialized using parquet. Which can be found in HDFS as show below</p>
    <img src="https://daftengineer.github.io/media_assets/ml2p7.jpg" />
-<p style="text-align:justify;"></p>
+
 <p>&nbsp;</p>
 </div>
