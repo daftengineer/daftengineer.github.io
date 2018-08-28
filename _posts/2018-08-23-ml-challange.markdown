@@ -21,7 +21,7 @@ image-sm: https://daftengineer.github.io/media_assets/machine_learning.jpg
         <li><b>Apache Spark</b></li>
            <ul>
               <li><a href = "https://daftengineer.github.io/2018/08/24/fraud-detection/">Bank Fraud Detection using Logistic Regression</a></li>
-              <li>Fraud Detection using Gradient Boosted Tree</li>
+              <li><a href ="https://daftengineer.github.io/2018/08/25/fraud-detection-using-GBT/"> Fraud Detection using Gradient Boosted Tree</a></li>
               <li>Prediction of outcome of pregnancy</li>
               <li>Exploring of USA Pollution Data</li>
               <li>Collaborative Filtering using Netflix Dataset</li>
