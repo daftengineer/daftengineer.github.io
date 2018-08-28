@@ -13,6 +13,9 @@ image-sm: https://daftengineer.github.io/media_assets/Fraud2.jpg
   <img src="https://daftengineer.github.io/media_assets/ml2p1.png" />
 <p style="text-align:justify;">Now I will explain every line of code here. First it is important to start spark session for any spark submittable application. And then steps for cleaning our data start. We have data in CSV Format so we will load them here. we need implicit functions (like col) to run so we might will need spark implicits to be imported. Our Label data is "isFraud" column which requires to be in double in order to work with our algorithm so in last step we changed its datatype.</p>
   <img src="https://daftengineer.github.io/media_assets/ml2p2.jpg" />
+<p style="text-align:justify;">We need to remove all other unnecessary column which won't be required for the process of analysis. But we have type column which is in string format and we need that in double as well so we will use StringIndexer. And then using variable "cleanandTransformed" we will make a dataframe to make a single entity and cache it on the memory.</p>
+   <img src="https://daftengineer.github.io/media_assets/ml2p3.jpg" />
+<p style="text-align:justify;">Now, In order to input the data in Gradient Boosting Algorithm available in spark we need the data in format of LabeledData and in RDD format so Next we will do exactly the same and split the data in two variable one for training and other for testing.</p>
 <p style="text-align:justify;"></p>
 <p style="text-align:justify;"></p>
 <p>&nbsp;</p>
