@@ -13,8 +13,7 @@ image-sm: https://daftengineer.github.io/media_assets/Fraud2.jpg
   <img src="https://daftengineer.github.io/media_assets/ml2p1.png" />
 <p style="text-align:justify;">Now I will explain every line of code here. First it is important to start spark session for any spark submittable application. And then steps for cleaning our data start. We have data in CSV Format so we will load them here. we need implicit functions(like col) to run so we might will need spark implicits to be imported</p>
   <p style="text-align:left;color:white;background-color:rgb(39, 124, 163);">
-    val spark = SparkSession<br />
-      .builder()<br />
+    val spark = SparkSession.builder()<br />
       .appName("Fraud Detection With GBT")<br />
       .master("yarn")<br />
       .getOrCreate()<br />
