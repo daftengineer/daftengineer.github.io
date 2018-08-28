@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Predicting The Outcome of Pregnancy from data of 5 States"
+title: "PREDICTING THE OUTCOME OF PREGNANCY FROM DATA OF 5 STATES"
 date: 2018-08-28
 description: Fraud Detection using Gradient Boosted Trees Algorithm
 image: "background-image: url('https://daftengineer.github.io/media_assets/preg.jpg');"
