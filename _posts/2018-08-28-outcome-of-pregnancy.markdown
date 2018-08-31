@@ -19,7 +19,7 @@ image-sm: https://daftengineer.github.io/media_assets/preg.jpg
 
 <p style="text-align:justify;">We have taken 5 different values for "Number of Iteration" and "Depth of Tree" parameters so that we can get 25 different combination of Parameters using which we can check which one suits best with our data. We will evaluate them using MSE, They get from every iteration of modeling and testing. This is not the proper way to do it so we will just use 20% of dataset which is saved as FILENAME_SMALL for our calculation.</p>
 <img src = "https://daftengineer.github.io/media_assets/ml3p4.png" />
-<p style="text-align:justify;">So, we can see below that lowest MSE score we got was from __________ which shows these are the best parameters for our data. </p>
+<p style="text-align:justify;">So, we can see below that lowest MSE score we got was 0.0159922495298564 from iteration 18 depth 25 which shows these are the best parameters for our data. </p>
 <img src = "https://daftengineer.github.io/media_assets/ml3p5.jpg" />
 <p style="text-align:justify;">As always source code for this project can be found <a href="https://github.com/daftengineer/MachineLearningProjects/blob/master/PregnancyOutcome.scala">here</a></p>
 
