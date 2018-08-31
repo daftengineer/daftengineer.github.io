@@ -13,6 +13,6 @@ image-sm: https://daftengineer.github.io/media_assets/pollution.jpg
    2) Growth of individual Pollutant Yearly.<br />
    3) Which cities are most polluted yearly?<br />
    4) Highest Concentration of pollutant in the state.<br />
-   5) Which observation method was most used yearly<br />
+   5) Which observation method was most used yearly?<br />
 </p>
 </div>
