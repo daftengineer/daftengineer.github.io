@@ -13,7 +13,12 @@ image-sm: https://daftengineer.github.io/media_assets/pollution.jpg
    2) Which cities were most polluted yearly?<br />
    3) Highest concentration of pollutant in the state.<br />
    4) Which observation method was most used yearly?<br /></p>
-   <p style="text-align:justify;">The available data, we have, has around 75 lakh rows so it is huge dataset. Schema of the data is given below. 
+   <p style="text-align:justify;">The available data, we have, has around 75 lakh rows so it is huge dataset. Schema of the data is given below. </p>
    <img />
-</p>
+   <p style="text-align:justify;">So the first question we want to explore is which state had highest pollution yearly. This seemingly simple question has tricky answer as there are many pollutants and they are measured using different units. So we need to find a way to make sure that we get the highest pollution yearly and we respect the existence of different units. ANd the answer i found was to have the average of individual pollution within a state per year and find the euclidean distance of the vector formed using the pollutant from origin. For that i needed to write User Defined Aggregation Function. And then using spark we got the highest polluted state yearly.</p>
+   <img />
+   <img />
+   <p style="text-align:justify;">So the answer we got is given below:</p>
+   
+   <p style="text-align:justify;"></p>
 </div>
