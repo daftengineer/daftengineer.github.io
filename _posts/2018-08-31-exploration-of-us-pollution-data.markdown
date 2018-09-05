@@ -20,5 +20,11 @@ image-sm: https://daftengineer.github.io/media_assets/pollution.jpg
    <img />
    <p style="text-align:justify;">So the answer we got is given below:</p>
    
-   <p style="text-align:justify;"></p>
+   <p style="text-align:justify;">We can apply exactly the same logic to find most polluted city areas.</p>
+   <img />
+    <p style="text-align:justify;">Now, In order to find the maximum concentration of individual pollutants, we can not do euclidean distance. Here we have to have, the units set to a standard and then only we can compare. So, here I have converted all the units to microgram per meter cube. In order to convert from nanogram to microgram we just needed it to divide by 1000. But to convert parts per billion carbon to microgram we need to know which pollutant we are talking about, find its molar mass and then multiply it by constant and value in ppb. So after that we have the result like below.</p>
+    <img />
+    <img />
+     <p style="text-align:justify;"></p>
+      <p style="text-align:justify;"></p>
 </div>
