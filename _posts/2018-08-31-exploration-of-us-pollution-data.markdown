@@ -12,6 +12,8 @@ image-sm: https://daftengineer.github.io/media_assets/pollution.jpg
 <p>1) Which state had highest pollution yearly?<br />
    2) Which cities were most polluted yearly?<br />
    3) Highest concentration of pollutant in the state.<br />
-   4) Which observation method was most used yearly?<br />
+   4) Which observation method was most used yearly?<br /></p>
+   <p style="text-align:justify;">The available data, we have, has around 75 lakh rows so it is huge dataset. Schema of the data is given below. 
+   <img />
 </p>
 </div>
