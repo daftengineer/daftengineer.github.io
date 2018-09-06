@@ -29,5 +29,5 @@ image-sm: https://daftengineer.github.io/media_assets/pollution.jpg
      <img src = "https://daftengineer.github.io/media_assets/ml4p7.jpg"/>
       <img src = "https://daftengineer.github.io/media_assets/ml4p8.jpg"/>
      <img src = "https://daftengineer.github.io/media_assets/ml4p9.jpg"/>
-      <p style="text-align:justify;">Source Code for this article can be found <a href="https://github.com/daftengineer/MachineLearningProjects/blob/master/USPollution.scala">here</a></p>
+      <p style="text-align:justify;">This was the brief exploration of dataset provided to us by EPA. There are many more exploration goal we can achieve from the same data but we will keep them for the future. Source code for this article can be found <a href="https://github.com/daftengineer/MachineLearningProjects/blob/master/USPollution.scala">here</a></p>
 </div>
