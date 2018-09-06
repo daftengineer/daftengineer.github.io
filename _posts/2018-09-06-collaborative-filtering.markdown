@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "EXPLORATION OF USA POLLUTION DATA ML4"
-date: 2018-08-31
-description: Exploring the USA pollution data provided to the public by EPA
-image: "background-image: url('https://daftengineer.github.io/media_assets/pollution.jpg');"
-image-sm: https://daftengineer.github.io/media_assets/pollution.jpg
+title: "COLLABORATIVE FILTERING ON NETFLIX DATA ML5"
+date: 2018-09-06
+description: predicting the behaviour of user depending on their movie choices
+image: "background-image: url('https://daftengineer.github.io/media_assets/cf.jpg');"
+image-sm: https://daftengineer.github.io/media_assets/cf.jpg
 ---
 
 <div style="color:black;"><p></p>
