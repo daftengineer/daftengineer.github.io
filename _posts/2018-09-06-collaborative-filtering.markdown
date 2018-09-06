@@ -8,5 +8,7 @@ image-sm: https://daftengineer.github.io/media_assets/cf.jpg
 ---
 
 <div style="color:black;"><p></p>
-<p style="text-align:justify;"></p>
+  <p style="text-align:justify;"></p>
+  <p style="text-align:justify;"></p>
+  <p style="text-align:justify;"></p>
 </div>
