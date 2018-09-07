@@ -17,4 +17,5 @@ image-sm: https://daftengineer.github.io/media_assets/cf.jpg
 <img src="https://daftengineer.github.io/media_assets/ml5p1.jpg" />
   <p style="text-align:justify;">And We can also see the Root mean square error of each model and use as per needs be. Here all models are good and variance is also close so any of the model can be used.</p>
 <img src="https://daftengineer.github.io/media_assets/ml5p3.jpg" />
+  <p style="text-align:justify;">Source code for this project can be found <a href="https://github.com/daftengineer/MachineLearningProjects/blob/master/Collab.scala">here</a></p>
 </div>
