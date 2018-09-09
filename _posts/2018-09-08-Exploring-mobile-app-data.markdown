@@ -8,5 +8,7 @@ image-sm: https://daftengineer.github.io/media_assets/apps.jpg
 ---
 
 <div style="color:black;"><p></p>
+<p style="text-align:justify;">In this article I am going to use more of conventional tools in order to perform the explorative ananlysis on Android apps data. This conventional tools include using python, pandas, numpy and matplotlib. The main disadvantage of using this tools is that we usually are not able to compute extremely large batches of data as this tools work on single system with any logic to distribute the data and algorithm. So this tools are good for doing analysis which can be done on a single machine. This means we usually are not able to use this analytical tools on distributed environments but that doesnt mean no one has been working on it. Even Apache Spark is available on python language but that is for totally different use case.</p>
+<p style="text-align:justify;"></p>
 <p style="text-align:justify;"></p>
 </div>
