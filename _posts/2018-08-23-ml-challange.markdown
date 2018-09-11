@@ -26,13 +26,13 @@ image-sm: https://daftengineer.github.io/media_assets/machine_learning.jpg
               <li><a href="https://daftengineer.github.io/2018/08/31/exploration-of-us-pollution-data/">Exploring of USA Pollution Data</a></li>
               <li><a href="https://daftengineer.github.io/2018/09/06/collaborative-filtering/">Collaborative Filtering using Netflix Dataset</a></li>
           </ul>
-        <li><b>TensorFlow/scikit-learn/keras</b></li>
+        <li><b>MXNet/scikit-learn/keras</b></li>
           <ul>
               <li><a href="https://daftengineer.github.io/2018/09/08/Exploring-mobile-app-data/">Explorative Analysis on Mobile App Data</a></li>
               <li>Exploration of Crimes in India</li>
+              <li>Finding accident hotspots in Banglore</li>
               <li>Deep Learning based Sentiment analysis on Universal Basic Income Survey</li>
               <li>Impact of News on Stock pricing</li>
-              <li>Image Captioning</li>
           </ul>
     </ul>
     
