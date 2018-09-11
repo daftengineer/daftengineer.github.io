@@ -37,7 +37,7 @@ image-sm: https://daftengineer.github.io/media_assets/apps.jpg
 <p style="text-align:justify;">For this I needed a definition for Popularity. So in context of data we have available we can define popularity as number of downloads times rating. This results in this kinda app list but we had merge the data as groupby removes every other column which are not subject to grouping</p>
  <img src= "https://daftengineer.github.io/media_assets/ml6p7.jpg" />
  <img src= "https://daftengineer.github.io/media_assets/ml6p8.jpg" />
- <h1>App with highest Revenue Monthly</h1><br />
+ <h1>App with Highest Revenue Monthly</h1><br />
 <p style="text-align:justify;">Using the above logic we can also find apps with most revenue. Revenue, here, is defined as number of downloads times price. In earlier years there werent monetization option on apps so I removed all those who might have earned from advertisement but not directly from play store.</p>
 <img src= "https://daftengineer.github.io/media_assets/ml6p9.jpg" />
  </div>
