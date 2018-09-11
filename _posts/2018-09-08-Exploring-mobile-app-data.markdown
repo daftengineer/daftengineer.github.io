@@ -22,14 +22,15 @@ image-sm: https://daftengineer.github.io/media_assets/apps.jpg
 <p style="text-align:justify;">Using pandas is best tool for us for this explorative task. First I imported all the library which are required. And then upload the CSV file into the notebook for Analysis</p>
 <p style="text-align:justify;">Now, for finding pricing trends we need to clean the date column as it has many typos. For that i wrote a function which we can pass on every row to clean the date as required.</p>
 <p style="text-align:justify;">Then, I grouped data and showed pricing trend (mean):</p>
- <h1>Number of Downloads Trends<h1>
+ <h1>Number of Downloads Trends</h1>
 <p style="text-align:justify;">Using exactly the same logic I plotted the trend for Number of downloads. But point here to be noted is that graph here is on logarithmic axis so changes are actually more drastic than it seems.</p>
 <h1>App Size Trends</h1>
 <p style="text-align:justify;">Here, size of app is in form of "2,3M" (2.3 Million) so we need to change it to float value from current string value using which we can work on it. So I wrote below function for it.</p>
 <p style="text-align:justify;">Then it is became easy to plot it.</p>
   <h1>Most Popular app Monthly</h1>
 <p style="text-align:justify;">For this I needed a definition for Popularity. So in context of data we have available we can define popularity as number of downloads times rating. This results in this kinda app list but we had merge the data as groupby removes every other column which are not subject to grouping</p>
-<p style="text-align:justify;"></p>
+ <h1>App with highest Revenue Monthly</h1>
+<p style="text-align:justify;">Using the above logic we can also find apps with most revenue. Revenue, here, is defined as number of downloads times price. In earlier years there werent monetization option on apps so I removed all those who might have earned from advertisement but not directly from play store.</p>
 
  </div>
 
