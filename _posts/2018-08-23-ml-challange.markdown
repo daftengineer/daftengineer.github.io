@@ -28,7 +28,7 @@ image-sm: https://daftengineer.github.io/media_assets/machine_learning.jpg
           </ul>
         <li><b>TensorFlow/scikit-learn/keras</b></li>
           <ul>
-              <li>Explorative Analysis on Mobile App Data</li>
+              <li><a href="https://daftengineer.github.io/2018/09/08/Exploring-mobile-app-data/">Explorative Analysis on Mobile App Data</a></li>
               <li>Exploration of Crimes in India</li>
               <li>Deep Learning based Sentiment analysis on Universal Basic Income Survey</li>
               <li>Impact of News on Stock pricing</li>
