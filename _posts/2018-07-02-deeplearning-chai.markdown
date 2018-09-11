@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "EXPLAINATION OF DEEP LEARNING USING TEA"
+title: "explanation of deep learning using tea"
 date: 2018-07-02
 description: Analogy for DEEP LEARNING with Tea 
 image: "background-image:url('https://daftengineer.github.io/media_assets/2.jpg');"
