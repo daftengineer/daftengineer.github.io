@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PREDICTING THE OUTCOME OF PREGNANCY FROM AHS DATASET ML3"
+title: "predicting the outcome of pregnancy from ahs dataset ml3"
 date: 2018-08-28
 description: Predicting the outcome of pregnancy using data from annual health survey of India
 image: "background-image: url('https://daftengineer.github.io/media_assets/preg.jpg');"
