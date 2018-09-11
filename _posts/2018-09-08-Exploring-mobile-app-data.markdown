@@ -20,25 +20,25 @@ image-sm: https://daftengineer.github.io/media_assets/apps.jpg
   </ol></b>
  <h1>Pricing Trend</h1>
 <p style="text-align:justify;">Using pandas is best tool for us for this explorative task. First I imported all the library which are required. And then upload the CSV file into the notebook for Analysis</p>
- <img src= "ttps://daftengineer.github.io/media_assets/ml6p1" />
+ <img src= "ttps://daftengineer.github.io/media_assets/ml6p1.jpg" />
 <p style="text-align:justify;">Now, for finding pricing trends we need to clean the date column as it has many typos. For that i wrote a function which we can pass on every row to clean the date as required.</p>
- <img src= "ttps://daftengineer.github.io/media_assets/ml6p2" />
+ <img src= "ttps://daftengineer.github.io/media_assets/ml6p2.jpg" />
 <p style="text-align:justify;">Then, I grouped data and showed pricing trend (mean):</p>
- <img src= "ttps://daftengineer.github.io/media_assets/ml6p3" />
+ <img src= "ttps://daftengineer.github.io/media_assets/ml6p3.jpg" />
  <h1>Number of Downloads Trends</h1>
 <p style="text-align:justify;">Using exactly the same logic I plotted the trend for Number of downloads. But point here to be noted is that graph here is on logarithmic axis so changes are actually more drastic than it seems.</p>
- <img src= "ttps://daftengineer.github.io/media_assets/ml6p4" />
+ <img src= "ttps://daftengineer.github.io/media_assets/ml6p4.jpg" />
 <h1>App Size Trends</h1>
 <p style="text-align:justify;">Here, size of app is in form of "2,3M" (2.3 Million) so we need to change it to float value from current string value using which we can work on it. So I wrote below function for it.</p>
- <img src= "ttps://daftengineer.github.io/media_assets/ml6p5" />
+ <img src= "ttps://daftengineer.github.io/media_assets/ml6p5.jpg" />
 <p style="text-align:justify;">Then it is became easy to plot it.</p>
- <img src= "ttps://daftengineer.github.io/media_assets/ml6p6" />
+ <img src= "ttps://daftengineer.github.io/media_assets/ml6p6.jpg" />
   <h1>Most Popular app Monthly</h1>
 <p style="text-align:justify;">For this I needed a definition for Popularity. So in context of data we have available we can define popularity as number of downloads times rating. This results in this kinda app list but we had merge the data as groupby removes every other column which are not subject to grouping</p>
- <img src= "ttps://daftengineer.github.io/media_assets/ml6p7" />
- <img src= "ttps://daftengineer.github.io/media_assets/ml6p8" />
+ <img src= "ttps://daftengineer.github.io/media_assets/ml6p7.jpg" />
+ <img src= "ttps://daftengineer.github.io/media_assets/ml6p8.jpg" />
  <h1>App with highest Revenue Monthly</h1>
 <p style="text-align:justify;">Using the above logic we can also find apps with most revenue. Revenue, here, is defined as number of downloads times price. In earlier years there werent monetization option on apps so I removed all those who might have earned from advertisement but not directly from play store.</p>
-<img src= "ttps://daftengineer.github.io/media_assets/ml6p9" />
+<img src= "ttps://daftengineer.github.io/media_assets/ml6p9.jpg" />
  </div>
 
