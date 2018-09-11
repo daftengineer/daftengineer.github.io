@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "FRAUD DETECTION ML1"
+title: "fraud detection ml1"
 date: 2018-08-24
 description: This is simple fraud Detection Program in Spark
 image: "background-image: url('https://daftengineer.github.io/media_assets/fraud.jpg');"
