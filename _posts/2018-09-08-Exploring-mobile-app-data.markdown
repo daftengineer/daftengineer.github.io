@@ -19,14 +19,14 @@ image-sm: https://daftengineer.github.io/media_assets/apps.jpg
   <li>App with Highest Revenue</li>
   </ol></b>
  <h1>Pricing Trend</h1><br />
-<p style="text-align:justify;">Pandas is best tool for us for this explorative task. First, I imported all the library which are required and then uploaded the CSV file into the notebook for Analysis</p>
+<p style="text-align:justify;">Pandas is best tool for us for this explorative task. First, I imported all the library which are required and then uploaded the CSV file into the notebook for analysis</p>
  <img src= "https://daftengineer.github.io/media_assets/ml6p1.jpg" />
 <p style="text-align:justify;">Now, for finding pricing trends, we need to clean the date column as it has many typing mistakes. For that I wrote a function, which we can pass on every row to clean the date as required.</p>
  <img src= "https://daftengineer.github.io/media_assets/ml6p2.jpg" />
 <p style="text-align:justify;">Then, I have grouped data and showed pricing trend (mean):</p>
  <img src= "https://daftengineer.github.io/media_assets/ml6p3.jpg" />
  <h1>Number of Downloads Trends</h1><br />
-<p style="text-align:justify;">Using exactly the same logic I plotted the trend for Number of downloads. But point here to be noted is that graph here is on logarithmic axis so changes are actually more drastic than it seems.</p>
+<p style="text-align:justify;">Using exactly the same logic I plotted the trend for Number of downloads. But point here to be noted, is that graph here, is on logarithmic axis so changes are actually more drastic than it seems.</p>
  <img src= "https://daftengineer.github.io/media_assets/ml6p4.jpg" />
 <h1>App Size Trends</h1><br />
 <p style="text-align:justify;">Here, size of app is in form of "2,3M" (2.3 Million) so we need to change it to float value from current string value using which we can work on it. So I wrote below function for it.</p>
