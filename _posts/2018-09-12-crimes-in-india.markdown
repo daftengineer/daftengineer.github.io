@@ -8,6 +8,19 @@ image-sm: https://daftengineer.github.io/media_assets/crime.jpg
 ---
 
 <div style="color:black;"><p></p>
-<p style="text-align:justify;"></p>
+ <p style="text-align:justify;">This article is about plain old explorative analysis of crimes data available to us in public domain which required nothing but pandas and numpy to get implemented. In this article I will be exploring the below question and plot the trend diagram for each. All the logic will be as per same as last project had.</p>
+ <ol>
+  <li>Maximum Numbers of murders yearly statewise</li>
+  <li>Maximum Numbers of murders yearly districtwise</li>
+  <li>Maximum Numbers of rape cases yearly statewise</li>
+  <li>Maximum Numbers of rape yearly districtwise</li>
+  <li>Trendline of overall rape cases in India</li>
+  <li>Maximum Numbers of Kidnapping yearly statewise</li>
+  <li>Maximum Numbers of Kidnapping yearly districtwise</li>
+  <li>Trendline for all crimes for Gujarat</li>
+ </ol>
+ <p style="text-align:justify;"></p>
+ <p style="text-align:justify;"></p>
+ <p style="text-align:justify;"></p>
  </div>
 
