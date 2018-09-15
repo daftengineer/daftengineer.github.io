@@ -40,10 +40,6 @@ image-sm: https://daftengineer.github.io/media_assets/crime.jpg
 <img src="https://daftengineer.github.io/media_assets/ml7p9.jpg" />
  <h1>Bonus: Here is all crimes in one graph.</h1>
 <img src="https://daftengineer.github.io/media_assets/ml7p10.jpg" />
- <p style="text-align:justify;"></p>
- <p style="text-align:justify;"></p>
- <p style="text-align:justify;"></p>
- <p style="text-align:justify;"></p>
 
 
  </div>
