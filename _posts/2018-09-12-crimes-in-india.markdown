@@ -20,7 +20,33 @@ image-sm: https://daftengineer.github.io/media_assets/crime.jpg
   <li>Trendline for all crimes for Gujarat</li>
  </ol>
  <p style="text-align:justify;">Here some of the state data is available only for 2013. So spikes in end of some graphs are because of it. </p>
+ <h1>Maximum Numbers of murders yearly statewise</h1>
+ <img src="" />
+ <img src="" />
+  <h1>Maximum Numbers of murders yearly districtwise</h1>
+ <img src="" />
+ <img src="" />
+  <h1>Maximum Numbers of rape cases yearly statewise</h1>
+ <img src="" />
+ <img src="" />
+  <h1>Maximum Numbers of rape yearly districtwise</h1>
+ <img src="" />
+ <img src="" />
+  <h1>Trendline of overall rape cases in India</h1>
+ <img src="" />
+  <h1>Maximum Numbers of Kidnapping yearly statewise</h1>
+ <img src="" />
+  <h1>Maximum Numbers of Kidnapping yearly districtwise</h1>
+ <img src="" />
+  <h1>Trendline for all crimes for Gujarat</h1>
+ <img src="" />
+ 
+ <img src="" />
  <p style="text-align:justify;"></p>
  <p style="text-align:justify;"></p>
+ <p style="text-align:justify;"></p>
+ <p style="text-align:justify;"></p>
+
+
  </div>
 
