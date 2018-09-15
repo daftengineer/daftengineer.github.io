@@ -13,11 +13,11 @@ image-sm: https://daftengineer.github.io/media_assets/crime.jpg
  <ol>
   <li>Maximum Numbers of murders yearly statewise</li>
   <li>Maximum Numbers of murders yearly districtwise</li>
-  <li>Maximum Numbers of rape cases yearly statewise</li>
+  <li>Trendline for Maximum Numbers of rape cases yearly statewise</li>
   <li>Maximum Numbers of rape yearly districtwise</li>
   <li>Trendline of overall rape cases in India</li>
   <li>Maximum Numbers of Kidnapping yearly statewise</li>
-  <li>Maximum Numbers of Kidnapping yearly districtwise</li>
+  <li>Trendline forMaximum Numbers of Kidnapping yearly districtwise</li>
   <li>Trendline for all crimes for Gujarat</li>
  </ol>
  <p style="text-align:justify;">Here some of the state data is available only for 2013. So spikes in end of some graphs are because of it. </p>
@@ -26,7 +26,7 @@ image-sm: https://daftengineer.github.io/media_assets/crime.jpg
  <img src="https://daftengineer.github.io/media_assets/ml7p2.jpg" />
   <h1>Maximum Numbers of murders yearly districtwise</h1>
 <img src="https://daftengineer.github.io/media_assets/ml7p3.jpg" />
-  <h1>Maximum Numbers of rape cases yearly statewise</h1>
+  <h1>Trendline for Maximum Numbers of rape cases yearly statewise</h1>
  <img src="https://daftengineer.github.io/media_assets/ml7p4.jpg" />
   <h1>Maximum Numbers of rape yearly districtwise</h1>
  <img src="https://daftengineer.github.io/media_assets/ml7p6.jpg" />
@@ -34,7 +34,7 @@ image-sm: https://daftengineer.github.io/media_assets/crime.jpg
  <img src="https://daftengineer.github.io/media_assets/ml7p5.jpg" />
   <h1>Maximum Numbers of Kidnapping yearly statewise</h1>
 <img src="https://daftengineer.github.io/media_assets/ml7p7.jpg" />
-  <h1>Maximum Numbers of Kidnapping yearly districtwise</h1>
+  <h1>Trendline for Maximum Numbers of Kidnapping yearly districtwise</h1>
 <img src="https://daftengineer.github.io/media_assets/ml7p8.jpg" />
   <h1>Trendline for all crimes for Gujarat</h1>
 <img src="https://daftengineer.github.io/media_assets/ml7p9.jpg" />
