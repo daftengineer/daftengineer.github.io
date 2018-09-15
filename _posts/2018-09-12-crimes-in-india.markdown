@@ -40,7 +40,7 @@ image-sm: https://daftengineer.github.io/media_assets/crime.jpg
  <img src="" />
   <h1>Trendline for all crimes for Gujarat</h1>
  <img src="" />
- 
+ <h1>Bonus: Here is all crimes in one graph.</h1>
  <img src="" />
  <p style="text-align:justify;"></p>
  <p style="text-align:justify;"></p>
