@@ -9,7 +9,7 @@ image-sm: https://daftengineer.github.io/media_assets/accident.jpg
 
 <div style="color:black;"><p></p>
 
- <p style="text-align:justify;"></p>
+ <p style="text-align:justify;">In this project, I will try to find out concentration of accident in banglore. </p>
  <p style="text-align:justify;"></p>
  <p style="text-align:justify;"></p>
  <p style="text-align:justify;"></p>
