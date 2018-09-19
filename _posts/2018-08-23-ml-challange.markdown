@@ -29,8 +29,8 @@ image-sm: https://daftengineer.github.io/media_assets/machine_learning.jpg
         <li><b>MXNet/scikit-learn/keras/Pandas</b></li>
           <ul>
               <li><a href="https://daftengineer.github.io/2018/09/08/Exploring-mobile-app-data/">Explorative Analysis on Mobile App Data</a></li>
-              <li>Exploration of Crimes in India</li>
-              <li>Finding accident hotspots in Banglore</li>
+              <li><a href= "https://daftengineer.github.io/2018/09/12/crimes-in-india/">Exploration of Crimes in India</a></li>
+            <li><a href="https://daftengineer.github.io/2018/09/15/accident-hotspots-banglore/">Finding accident hotspots in Banglore</a></li>
               <li>Deep Learning based Sentiment analysis on Universal Basic Income Survey</li>
               <li>Impact of News on Stock pricing</li>
           </ul>
