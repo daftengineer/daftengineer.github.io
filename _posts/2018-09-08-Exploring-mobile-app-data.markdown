@@ -31,7 +31,7 @@ image-sm: https://daftengineer.github.io/media_assets/apps.jpg
 <h1>App Size Trends</h1><br />
 <p style="text-align:justify;">Here, size of app is in form of "2,3M" (2.3 Million) so we need to change it to float value from current string value using which we can work on it. So I wrote below function for it.</p>
  <img src= "https://daftengineer.github.io/media_assets/ml6p5.jpg" />
-<p style="text-align:justify;">Then it becames easy to plot it.</p>
+<p style="text-align:justify;">Then it becomes easy to plot it.</p>
  <img src= "https://daftengineer.github.io/media_assets/ml6p6.jpg" />
   <h1>Most Popular app Monthly</h1><br />
 <p style="text-align:justify;">For this, I needed a definition for Popularity. So, in context of data we have available, we can define popularity as number of downloads times rating. This results in this type of app list but we had merge the data as groupby removes every other column which are not subject to grouping</p>
