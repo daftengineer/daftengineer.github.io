@@ -34,7 +34,7 @@ image-sm: https://daftengineer.github.io/media_assets/apps.jpg
 <p style="text-align:justify;">Then it becomes easy to plot it.</p>
  <img src= "https://daftengineer.github.io/media_assets/ml6p6.jpg" />
   <h1>Most Popular app Monthly</h1><br />
-<p style="text-align:justify;">For this, I needed a definition for Popularity. So, in context of data we have available, we can define popularity as number of downloads times rating. This results in this type of app list but we had merge the data as groupby removes every other column which are not subject to grouping</p>
+<p style="text-align:justify;">For this, I needed a definition for Popularity. So, in context of data we have available, we can define popularity as number of downloads times rating. This results in this type of app list but we had merged the data as groupby removes every other column which are not subject to grouping</p>
  <img src= "https://daftengineer.github.io/media_assets/ml6p7.jpg" />
  <img src= "https://daftengineer.github.io/media_assets/ml6p8.jpg" />
  <h1>App with Highest Revenue Monthly</h1><br />
