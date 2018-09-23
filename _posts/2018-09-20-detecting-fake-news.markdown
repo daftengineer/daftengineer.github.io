@@ -9,7 +9,7 @@ image-sm: https://daftengineer.github.io/media_assets/fakenews.jpg
 
 <div style="color:black;"><p></p>
 
-<p style="text-align:justify;">With increase in polarisation of political landscape, there are abundant amount of fake news spreading all around us. For this project, I needed reliable data which was tough to find and I found one too-under-interacting kaggle competition. I will be using this data for this article. </p>
+<p style="text-align:justify;">With increase in polarisation of political landscape, there are abundant amount of fake news spreading all around us. For this project, I needed reliable data which was tough to find but I found one on a too-under-interacting kaggle competition. I will be using this data for this article. </p>
 <p style="text-align:justify;"></p>
 <p style="text-align:justify;"></p>
 <p style="text-align:justify;"></p>
