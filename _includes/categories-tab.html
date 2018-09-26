@@ -4,5 +4,12 @@
 <p style="text-align:justify;">I am passionate about <b>Big Data Analytics and Machine learning</b>. I have the complete repertoire for jobs associated with both the topic. My skill-set includes in-depth understanding of <b>Classical machine learning, Deep Learning (Tensorflow, Keras, SciKit-Learn, Pandas, Spark MLlib), MapReduce Architecture, Hadoop Stack (Flume, HDFS, Cassandra, Hive, HBase, Kafka, Sqoop, YARN, Pig, Parquet, Zookeeper, Spark, Avro) and Advanced Statistics.</b> I comprehensively understand the <b>economics</b> and <b>finance</b>. I can fluently code in <b>JAVA, Scala and Python</b>.</p>
 <p style="text-align:justify;">You can check my portfolio projects on this webpage which include project like a <b>scalable machine learning project</b> on <b>optimization of economic credit policy</b> and <b>Stock market prediction using sentiment analytics</b> on news with learning models. I have industrial experience at companies like <b>Larsen and Toubro</b> and <b>Tops Technologies</b>.</p>
 </div>
-
 </div>
+<footer class="section-padding--sm footer">
+  <ul class="footer__social">
+    <li><a class="fa fa-lg fa-envelope-o" href="mailto:{{ site.email }}"></a></li>
+    {% for social in site.social %}
+      <li><a class="fa fa-lg fa-{{ social[0] }}" href="{{ social[1] }}" target="_blank"></a></li>
+    {% endfor %}
+  </ul>
+</footer>
