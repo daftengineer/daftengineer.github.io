@@ -71,8 +71,12 @@ h1 {
     font-size: $fontSize;
   }
   
-  @media (min-width: $mq-xs) {
+   @media (min-width: $mq-sm) {
      font-size: $fontSize;
+  }
+  
+  @media (min-width: $mq-xs) {
+     font-size: $fontSize - 1;
   }
 
 
