@@ -321,6 +321,10 @@
       width: 75%;
       background-color: black;
     }
+    @media (min-width: $mq-sm) {
+      background-color: black;
+
+  }
   }
 }
 
