@@ -66,7 +66,10 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   $fontSize: 3em;
-  
+   
+  @media (max-width: $mq-xs) {
+     font-size: $fontSize - 1.6em;
+  }
   @media (min-width: $mq-xs) {
      font-size: $fontSize - 0.5em;
   }
