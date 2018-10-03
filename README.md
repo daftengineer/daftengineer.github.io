@@ -1,1 +1,4 @@
-This is my Portfolio page to Show case what I have made so far and To show what i am upto 
+Project Portfolio Website by Pratik Sheth
+
+Any Query: ps@outlook.in
+Twitter: @daftengineer
