@@ -22,7 +22,7 @@ image-sm: https://daftengineer.github.io/media_assets/fakenews.jpg
 <img src="https://daftengineer.github.io/media_assets/ml9p4.jpg" />
 <p style="text-align:justify;">So resultant dataset would look like this.</p>
 <img src="https://daftengineer.github.io/media_assets/ml9p5.jpg" />
-<p style="text-align:justify;">And finally I converted pandas columns to numpy array made appropriate changes and made the vectors processable by converting them to list and the processed it using sklearn's MLPClassifier. And then tested against 25% of remaining data. The accuracy we got here is astounding <b>95%</b></p>
+<p style="text-align:justify;">And finally I converted pandas columns to numpy array made appropriate changes and made the vectors processable by converting them to list and the processed it using sklearn's MLPClassifier. And then tested against 25% of remaining data. The accuracy I got here is astounding <b>95%</b></p>
 <img src="https://daftengineer.github.io/media_assets/ml9p6.jpg" />
 
  </div>
