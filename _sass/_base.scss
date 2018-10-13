@@ -71,11 +71,11 @@ h1 {
      font-size: $fontSize - 2em;
   }
   @media (min-width: $mq-xs) {
-     font-size: $fontSize - 0.5em;
+     font-size: $fontSize - 1.5em;
   }
   
    @media (min-width: $mq-md) {
-    font-size: $fontSize + 0.5em;
+    font-size: $fontSize + 1.5em;
   }
 
 
