@@ -94,7 +94,7 @@ h1 {
      font-size: $fontSize - 1em;
   }
   @media (min-width: $mq-xs) {
-     font-size: $fontSize;
+     font-size: $fontSize - 1em;
   }
   
    @media (min-width: $mq-md) {
