@@ -18,7 +18,7 @@ image-sm: https://daftengineer.github.io/media_assets/machine_learning.jpg
   </p>
 <p style="text-align:justify;">Here is the list of Projects I will be doing:
 <ul>
-        <li><h1>Apache Spark</h1></li>
+        <li><h2>Apache Spark</h2></li>
            <ul>
               <li><a href = "https://daftengineer.github.io/2018/08/24/fraud-detection/">Bank Fraud Detection using Logistic Regression</a></li>
               <li><a href ="https://daftengineer.github.io/2018/08/25/fraud-detection-using-GBT/"> Fraud Detection using Gradient Boosted Tree</a></li>
@@ -26,7 +26,7 @@ image-sm: https://daftengineer.github.io/media_assets/machine_learning.jpg
               <li><a href="https://daftengineer.github.io/2018/08/31/exploration-of-us-pollution-data/">Exploring of USA Pollution Data</a></li>
               <li><a href="https://daftengineer.github.io/2018/09/06/collaborative-filtering/">Collaborative Filtering using Netflix Dataset</a></li>
           </ul>
-        <li><h1>Tensorflow/scikit-learn/keras/Pandas</h1></li>
+        <li><h2>Tensorflow/scikit-learn/keras/Pandas</h2></li>
           <ul>
               <li><a href="https://daftengineer.github.io/2018/09/08/Exploring-mobile-app-data/">Explorative Analysis on Mobile App Data</a></li>
               <li><a href= "https://daftengineer.github.io/2018/09/12/crimes-in-india/">Exploration of Crimes in India</a></li>
