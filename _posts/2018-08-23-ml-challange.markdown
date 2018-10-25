@@ -32,7 +32,7 @@ image-sm: https://daftengineer.github.io/media_assets/machine_learning.jpg
               <li><a href= "https://daftengineer.github.io/2018/09/12/crimes-in-india/">Exploration of Crimes in India</a></li>
             <li><a href="https://daftengineer.github.io/2018/09/15/accident-hotspots-banglore/">Finding accident hotspots in Banglore</a></li>
               <li><a href="https://daftengineer.github.io/2018/09/20/detecting-fake-news/" >Detection of fake news using NLP models</a></li>
-              <li>Impact of News on Stock pricing</li>
+              <li><a href="https://projects.daftengineer.ml/2018/10/12/market-forecast/">Impact of News on Stock pricing</a></li>
           </ul>
     </ul>
     
