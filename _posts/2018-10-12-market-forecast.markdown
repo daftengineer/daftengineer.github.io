@@ -2,7 +2,7 @@
 layout: post
 title: "predicting stock prices considering market sentiment ml10"
 date: 2018-10-12
-description: Deep learning model to predict the market price of specific index on US stock market data from news sentiment analysis.
+description: Deep learning model to predict the market price of specific index on US stock market data from news sentiment analysis data.
 image: "background-image: url('https://daftengineer.github.io/media_assets/stockmarket.jpg');"
 image-sm: https://daftengineer.github.io/media_assets/stockmarket.jpg
 ---
