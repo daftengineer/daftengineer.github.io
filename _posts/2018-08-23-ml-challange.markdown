@@ -13,7 +13,7 @@ image-sm: https://daftengineer.github.io/media_assets/machine_learning.jpg
 <p style="text-align:justify;"> These projects are widely divided into 2 categories.<br />
   <ol>
     <li>Projects Based on <b>Apache Spark</b></li>
-    <li>Projects Based on <b>Tensorflow/scikit-learn/keras/Pandas</b></li>
+    <li>Projects Based on <b>Tensorflow/scikit-learn/keras/Pandas/Gensims</b></li>
   </ol>
   </p>
 <p style="text-align:justify;">Here is the list of Projects I will be doing:
@@ -26,7 +26,7 @@ image-sm: https://daftengineer.github.io/media_assets/machine_learning.jpg
               <li><a href="https://daftengineer.github.io/2018/08/31/exploration-of-us-pollution-data/">Exploring of USA Pollution Data</a></li>
               <li><a href="https://daftengineer.github.io/2018/09/06/collaborative-filtering/">Collaborative Filtering using Netflix Dataset</a></li>
           </ul>
-        <li><h2>Tensorflow/scikit-learn/keras/Pandas</h2></li>
+        <li><h2>Tensorflow/scikit-learn/keras/Pandas/Gensims</h2></li>
           <ul>
               <li><a href="https://daftengineer.github.io/2018/09/08/Exploring-mobile-app-data/">Explorative Analysis on Mobile App Data</a></li>
               <li><a href= "https://daftengineer.github.io/2018/09/12/crimes-in-india/">Exploration of Crimes in India</a></li>
