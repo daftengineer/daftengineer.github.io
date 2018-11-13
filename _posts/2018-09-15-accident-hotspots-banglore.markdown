@@ -2,7 +2,7 @@
 layout: post
 title: "finding accident hotspots in bangalore ml8"
 date: 2018-09-15
-description: Using Clustering Algorithm, finding accident hotspots in bangalore.
+description: With the use of Clustering Algorithm, finding accident hotspots in bangalore.
 image: "background-image: url('https://daftengineer.github.io/media_assets/accident.jpg');"
 image-sm: https://daftengineer.github.io/media_assets/accident.jpg
 ---
