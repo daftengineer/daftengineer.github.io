@@ -2,7 +2,7 @@
 layout: post
 title: "credit policy prediction using apache spark"
 date: 2018-07-01
-description: Apache spark is used as an execution engine for scala based GARCH implementation
+description: Apache spark is used as an execution engine for GARCH implementation
 image: "background-image: url('https://daftengineer.github.io/media_assets/eco_big.jpg')"
 image-sm: https://daftengineer.github.io/media_assets/eco_big.jpg
 ---
