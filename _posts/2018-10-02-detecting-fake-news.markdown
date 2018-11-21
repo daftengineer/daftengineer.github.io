@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "detecting fake news using nlp models ml9"
+title: "automated detection of fake news using nlp models ml9"
 date: 2018-10-02
 description: Finding out the news is fake or not using several machine learning models.
 image: "background-image: url('https://daftengineer.github.io/media_assets/fakenews.jpg');"
