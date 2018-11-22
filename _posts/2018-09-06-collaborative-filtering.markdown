@@ -9,7 +9,7 @@ image-sm: https://daftengineer.github.io/media_assets/cf.jpg
 
 <div style="color:black;"><p></p>
   <p style="text-align:justify;">Collaborative filtering is method in which preference of an individual is predicted on basis of other individuals. We have several ways through which we can tackle this problem which include memory based and model based techniques. Here we will implement model based collaborative filter using Alternating Least Squares as regression model. </p>
-  <p style="text-align:justify;">Before everything I needed to make the data usuable by spark so I wrote the scala script to change the data as per I wanted</p>
+  <p style="text-align:justify;">Before everything, I needed to make the data usuable by spark so I wrote the scala script to change the data as per I wanted</p>
   <img src="https://daftengineer.github.io/media_assets/ml5p0.jpg" />
   <p style="text-align:justify;">In this project, I have considered grid of parameters which include regularization parameter and number of iteration. Using that we will be able to compute ALS and Predict the user rating.</p>
 <img src="https://daftengineer.github.io/media_assets/ml5p2.jpg" />
