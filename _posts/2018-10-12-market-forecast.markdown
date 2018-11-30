@@ -35,11 +35,10 @@ image-sm: https://daftengineer.github.io/media_assets/stockmarket.jpg
 <img src="news parsing" />
 <p style="text-align:justify;">Finally the data required was to be set with proper format so we can compute it using Keras.</p>
 <img src="data" />
-<p style="text-align:justify;">Lastly Neural Network was implemented using keras. It has First Embedding layer second  Convolution layer third pooling layer forth LSTM layer and last Dense Layer</p>
+<p style="text-align:justify;">Lastly, neural network was implemented using keras. It has first Embedding layer, second  Convolutional layer, third pooling layer, forth LSTM layer and last Dense Layer</p> 
+<img src="keras" />
+<img src="keras" />
 <p style="text-align:justify;">With our data We get ___ accuracy</p>
-<p style="text-align:justify;"></p>
-<p style="text-align:justify;"></p>
-
-<p style="text-align:justify;"></p>
+<img src="accuracy" />
 </div>
 
