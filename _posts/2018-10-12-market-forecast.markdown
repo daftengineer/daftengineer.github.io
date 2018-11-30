@@ -10,12 +10,36 @@ image-sm: https://daftengineer.github.io/media_assets/stockmarket.jpg
 <div style="color:black;"><p></p>
 
 <p style="text-align:justify;">Predicting the stock market prices has been well studied subject in whole data analytics field but the problem with stock market is, that is highly relient on the collective human behaviour and sentiment towards the market. Now volatility in market is dependent on human sentiment which is harder to quantify. The most impactful thing to human sentiment about the stock is news. In this project I will try to predict the stock market with the help of news and sentiment around it. </p>
+<p style="text-align:justify;">Code for the project can be found <a href="">here</a></p>
+<p style="text-align:justify;">For this project, first thing we need, is a reliable source of data which I found on a kaggle competition. It has two CSV files, one for market price data and another for everyday news regarding the specific index. All sentiment values are also analysed and provided with it. Here is sample of the data</p>
+<img src="News Dataframe" />
+<img src="Market Dataframe" />
+<p style="text-align:justify;">Now, in order to tackle this problem I am going to be using CNN LSTM Model which i think is the best for prediction task. Here Keras is used with tensorflow as backend</p>
+<p style="text-align:justify;">First Step is to import all the required library. </p>
+<img src="import ss" />
+<p style="text-align:justify;">Now, I will clean the data so that we can properly analyse them</p>
+<img src="Input News Dataframe" />
+<img src="Input market Dataframe" />
+<p style="text-align:justify;">For analysing the headline data, I required to convert it to machine understandable format which can be acquired using Document embedding. Code for which is given below</p>
+<img src="doc2vec" />
+<p style="text-align:justify;">I also need to vectorize the Subject and Audience columns. For which I wrote custom vectorization logic as there weren't anything for problem here present.</p>
+<img src="supporting functions" />
+<img src="supporting functions" />
+<img src="supporting functions" />
+<img src="supporting functions" />
+<p style="text-align:justify;">When functions is used it gives us this vectors</p>
+<img src="subject/audience" />
+<p style="text-align:justify;">So while parsing the news we need to make a vector of recent past market data. To fetch it I needed to make a QueryEngine which will be called on each news instance.</p>
+<img src="queryengine" />
+<p style="text-align:justify;">After that news were needed to be parsed for which below logic was used.</p>
+<img src="news parsing" />
+<p style="text-align:justify;">Finally the data required was to be set with proper format so we can compute it using Keras.</p>
+<img src="data" />
+<p style="text-align:justify;">Lastly Neural Network was implemented using keras. It has First Embedding layer second  Convolution layer third pooling layer forth LSTM layer and last Dense Layer</p>
+<p style="text-align:justify;">With our data We get ___ accuracy</p>
 <p style="text-align:justify;"></p>
 <p style="text-align:justify;"></p>
-<p style="text-align:justify;"></p>
-<p style="text-align:justify;"></p>
-<p style="text-align:justify;"></p>
-<p style="text-align:justify;"></p>
+
 <p style="text-align:justify;"></p>
 </div>
 
