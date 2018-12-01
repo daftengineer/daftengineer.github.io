@@ -11,7 +11,7 @@ image-sm: https://daftengineer.github.io/media_assets/stockmarket.jpg
 
 <p style="text-align:justify;">Predicting the stock market prices has been well studied subject in whole data analytics field but the problem with stock market is, that is highly relient on the collective human behaviour and sentiment towards the market. Now volatility in market is dependent on human sentiment which is harder to quantify. The most impactful thing to human sentiment about the stock is news. In this project I will try to predict the stock market with the help of news and sentiment around it. </p>
 <p style="text-align:justify;">Code for the project can be found <a href="">here</a></p>
-<p style="text-align:justify;">For this project, first thing I needed, is a reliable source of data which I found on a kaggle competition. It has two CSV files, one for market price data and another for everyday news regarding the specific index. All sentiment values are also analysed and provided with it. Here is sample of the data</p>
+<p style="text-align:justify;">For this project, first thing I needed, was a reliable source of data which I found on a kaggle competition. It has two CSV files, one for market price data and another for everyday news regarding the specific index. All sentiment values are also analysed and provided with it. Here is sample of the data</p>
 <img src="https://daftengineer.github.io/media_assets/ml10p1.jpg" />
 <img src="https://daftengineer.github.io/media_assets/ml10p2.jpg" />
 <p style="text-align:justify;">Now, in order to tackle this problem I am going to be using CNN LSTM Model which I think is the best for prediction task. Here Keras is used with tensorflow as backend</p>
