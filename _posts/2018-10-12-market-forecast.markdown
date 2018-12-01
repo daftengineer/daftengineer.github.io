@@ -39,7 +39,7 @@ image-sm: https://daftengineer.github.io/media_assets/stockmarket.jpg
 <img src="https://daftengineer.github.io/media_assets/ml10p16.jpg" />
 <p style="text-align:justify;">Lastly, neural network was implemented using keras. It has first Embedding layer, second  Convolutional layer, third pooling layer, forth LSTM layer and last Dense Layer</p> 
 <img src="https://daftengineer.github.io/media_assets/ml10p17.jpg" />
-<p style="text-align:justify;">With this data I got 0.126 loss value which is quite small which makes my algorithm highly accurate</p>
+<p style="text-align:justify;">With this data I got 0.126 loss value which is quite small and which makes my algorithm highly accurate</p>
 <img src="https://daftengineer.github.io/media_assets/ml10p18.jpg" />
 </div>
 
