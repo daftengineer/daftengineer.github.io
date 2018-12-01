@@ -14,7 +14,7 @@ image-sm: https://daftengineer.github.io/media_assets/stockmarket.jpg
 <p style="text-align:justify;">For this project, first thing I needed, is a reliable source of data which I found on a kaggle competition. It has two CSV files, one for market price data and another for everyday news regarding the specific index. All sentiment values are also analysed and provided with it. Here is sample of the data</p>
 <img src="https://daftengineer.github.io/media_assets/ml10p1.jpg" />
 <img src="https://daftengineer.github.io/media_assets/ml10p2.jpg" />
-<p style="text-align:justify;">Now, in order to tackle this problem I am going to be using CNN LSTM Model which i think is the best for prediction task. Here Keras is used with tensorflow as backend</p>
+<p style="text-align:justify;">Now, in order to tackle this problem I am going to be using CNN LSTM Model which I think is the best for prediction task. Here Keras is used with tensorflow as backend</p>
 <p style="text-align:justify;">First Step is to import all the required library. </p>
 <img src="https://daftengineer.github.io/media_assets/ml10p3.jpg" />
 <p style="text-align:justify;">Now, I will clean the data so that they can be properly analysed</p>
