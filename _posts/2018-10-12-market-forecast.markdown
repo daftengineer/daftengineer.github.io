@@ -27,7 +27,7 @@ image-sm: https://daftengineer.github.io/media_assets/stockmarket.jpg
 <img src="https://daftengineer.github.io/media_assets/ml10p8.jpg" />
 <img src="https://daftengineer.github.io/media_assets/ml10p9.jpg" />
 <img src="https://daftengineer.github.io/media_assets/ml10p10.jpg" />
-<p style="text-align:justify;">When functions is used it gives us this vectors</p>
+<p style="text-align:justify;">When functions are used it gives us this vectors</p>
 <img src="https://daftengineer.github.io/media_assets/ml10p11.jpg" />
 <img src="https://daftengineer.github.io/media_assets/ml10p12.jpg" />
 <p style="text-align:justify;">So while parsing the news we need to make a vector of recent past market data. To fetch it I needed to make a QueryEngine which will be called on each news instance.</p>
