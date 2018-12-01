@@ -22,7 +22,7 @@ image-sm: https://daftengineer.github.io/media_assets/stockmarket.jpg
 <img src="https://daftengineer.github.io/media_assets/ml10p5.jpg" />
 <p style="text-align:justify;">For analysing the headline data, I required to convert it to machine understandable format which can be acquired using Document embedding. Code for which is given below</p>
 <img src="https://daftengineer.github.io/media_assets/ml10p6.jpg" />
-<p style="text-align:justify;">I also need to vectorize the Subject and Audience columns. For which I wrote custom vectorization logic as there weren't anything for problem here present.</p>
+<p style="text-align:justify;">I also needed to vectorize the Subject and Audience columns. For which I wrote custom vectorization logic as there weren't anything for problem here present.</p>
 <img src="https://daftengineer.github.io/media_assets/ml10p7.jpg" />
 <img src="https://daftengineer.github.io/media_assets/ml10p8.jpg" />
 <img src="https://daftengineer.github.io/media_assets/ml10p9.jpg" />
