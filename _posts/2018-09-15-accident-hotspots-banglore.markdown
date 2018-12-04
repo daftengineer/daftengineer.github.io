@@ -23,7 +23,7 @@ image-sm: https://daftengineer.github.io/media_assets/accident.jpg
  <p style="text-align:justify;">Finally the plot looks like this:</p>
   <img src="https://daftengineer.github.io/media_assets/ml8p4.jpg" />
 
- <p style="text-align:justify;">Here are one location for each hotspot. Others will be at maximum of epsilon distance from this location.</p>
+ <p style="text-align:justify;">Here is one location for each hotspot. Others will be at maximum of epsilon distance from this location.</p>
   <img src="https://daftengineer.github.io/media_assets/ml8p5.jpg" />
  </div>
 
