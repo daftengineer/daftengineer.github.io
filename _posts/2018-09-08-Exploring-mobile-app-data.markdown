@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "exploring mobile app data ml6"
+title: "exploring mobile app data"
 date: 2018-09-08
 description: EXPLORATION OF MOBILE APP DATA AVAILABLE ON GOOGLE PLAY STORE APPS ML6
 image: "background-image: url('https://daftengineer.github.io/media_assets/apps.jpg');"
