@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "gradient boosted trees ml2"
+title: "large scale fraud detection using gradient boosted trees with apache spark"
 date: 2018-08-25
 description: Fraud Detection using Gradient Boosted Trees Algorithm
 image: "background-image: url('https://daftengineer.github.io/media_assets/Fraud2.jpg');"
