@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "large scale fraud detection with apache spark"
+title: "large scale fraud detection using apache spark"
 date: 2018-08-24
 description: This is simple fraud Detection Program in Spark
 image: "background-image: url('https://daftengineer.github.io/media_assets/fraud.jpg');"
