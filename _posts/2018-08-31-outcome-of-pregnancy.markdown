@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "predicting the outcome of pregnancy from ahs dataset using apache spark"
-date: 2018-08-28
+date: 2018-08-31
 description: Predicting the outcome of pregnancy using data collected from annual health survey of India
 image: "background-image: url('https://daftengineer.github.io/media_assets/preg.jpg');"
 image-sm: https://daftengineer.github.io/media_assets/preg.jpg
