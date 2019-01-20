@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "collaborative filtering on netflix data"
-date: 2018-09-06
+date: 2018-09-08
 description: predicting the behaviour of user depending on their movie choices
 image: "background-image: url('https://daftengineer.github.io/media_assets/cf.jpg');"
 image-sm: https://daftengineer.github.io/media_assets/cf.jpg
