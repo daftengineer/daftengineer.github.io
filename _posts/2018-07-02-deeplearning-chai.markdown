@@ -29,6 +29,10 @@ image-sm:
     <li>Consistency</li>
     <li>Temperature</li>
   </ul>
+  <code>def create_data_file(source):
+    fmt = 'data/{}/*'.format(source)
+    print('Reading files from {}...'.format(fmt))
+    files = glob(fmt)</code>
  <p style="text-align:justify;">
    We will judge the tea with these matrix and tell chef what he needs to work on. So chef goes back to kitchen considers what we told him and tries to recall what he added and what he needs to do in order to make those specific changes to make good tea. Now if this thing happens thousands of time eventually we will get to better tea we want. In deep learning we exactly do this, we input the data and compare the output with ideal source, this is called training phase. Now to make appropriate changes we need to use optimisation algorithm like <a href="https://en.wikipedia.org/wiki/Stochastic_gradient_descent">stochastic gradient descent</a>. In tea making process, what chef did was to recall what he added and made changes, these changes are done using optimisation algorithm and the process of recalling the ingredient is called <a href="https://en.wikipedia.org/wiki/Backpropagation">backpropogation</a>. We do not know what chef has used or what process he took to make it but we only know what a tea tastes or looks like. The fact that process is hidden to us is known as hidden layer in deep learning. The process of comparing the end result (tea) with acceptable version of tea, is called <a href="https://en.wikipedia.org/wiki/Loss_function">Cost Function</a>. Comparing the current tea with the best tea ever is called objective function.
   </p>
