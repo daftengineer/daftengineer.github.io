@@ -1,12 +1,4 @@
 ---
 ---
 
-@import
-  'base',
-  'mixins',
-  'extends',
-  'layout',
-  'components',
-  'animations',
-  'helpers'
-;
+@import "base", "typography", "header", "post", "home", "footer", "paginator", "scrollbar", "contact", "related-posts", "mobile";
