@@ -1,6 +1,6 @@
 ---
 title: A data ingestion pipeline to take in data from API source of simulated wind farm to timescaleDB
-tags: TeXt
+tags: rabitmq, timescaledb, go, python, fastapi, pydantic
 ---
 
 Here in this article I am showing the sample data pipeline that takes in the data from API in file or record format and send it to fastapi server to process the request and connect to timescaleDB. The message broker used here is rabbitMQ. Note: Pydantic Data model is pending.
