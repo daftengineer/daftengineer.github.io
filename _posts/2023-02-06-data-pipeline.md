@@ -3,7 +3,7 @@ title: A data ingestion pipeline to take in data from API source of simulated wi
 tags: rabitmq timescaledb go python fastapi pydantic
 ---
 
-Here in this article I am showing the sample data pipeline that takes in the data from API in file or record format and send it to fastapi server to process the request and connect to timescaleDB. The message broker used here is rabbitMQ. Note: Pydantic Data model is pending.
+Here in this article I am showing the sample data pipeline that takes in the data from API in file or record format and send it to fastapi server to process the request and connect to timescaleDB. The message broker used here is rabbitMQ.
 All the code is packaged in dockerfiles and runs with just one command. Repo for the code can be found at [here](https://github.com/daftengineer/data-ingestion)
 
 Once it is built you can just do 
