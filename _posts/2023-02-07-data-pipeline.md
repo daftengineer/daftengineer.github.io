@@ -1,5 +1,5 @@
 ---
-title: A data ingestion Pipeline to take in data from API source of simulated wind farm to timescaleDB.
+title: A data ingestion pipeline to take in data from API source of simulated wind farm to timescaleDB
 tags: TeXt
 ---
 
