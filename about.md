@@ -25,5 +25,5 @@ titles:
   # @end locale config
 key: page-about
 ---
-I am Pratik Sheth, Cloud Architect. This is the portfolio page in which I am reflecting on my capabilities regarding Cloud Architecture, Machine Learning and Machine Learning Operations. 
+I am Pratik Sheth, Cloud Architect. I have worked in predictive maintainace, cloud operations and automation and Data engineering. I am specifically interested in ML in Renewables Energy resources. This is the portfolio page in which I am reflecting on my capabilities regarding Cloud Architecture, Machine Learning and Machine Learning Operations. 
 Any Suggestions or requests can be sent to shethpratik@outlook.com
