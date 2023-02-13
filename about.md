@@ -25,4 +25,5 @@ titles:
   # @end locale config
 key: page-about
 ---
-Test about
+I am Pratik Sheth, Cloud Architect. This is the portfolio page in which I am reflecting on my capabilities regarding Cloud Architecture, Machine Learning and Machine Learning Operations. 
+Any Suggestions or requests can be sent to shethpratik@outlook.com
