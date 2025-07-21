@@ -17,9 +17,9 @@ Meta's Segment Anything Model (SAM) revolutionized image segmentation, but deplo
 
 SAM's ability to segment any object in an image with minimal prompting seemed perfect for our material science applications. However, the research model presented several production challenges:
 
-- **Model Size**: 2.4GB for the ViT-H variant
-- **Inference Time**: 3-5 seconds per image on GPU
-- **Memory Requirements**: 8GB+ VRAM for batch processing
+- **Model Size**: Large for the ViT-H variant
+- **Inference Time**: Several seconds per image on GPU
+- **Memory Requirements**: High VRAM requirements for batch processing
 - **Input Flexibility**: Handles various prompt types (points, boxes, masks)
 - **Output Quality**: High-fidelity masks but computationally expensive
 
@@ -711,60 +711,14 @@ class MaterialDefectDetector:
         return masks
 ```
 
-## Performance Optimization Results
+## Performance Optimization Outcomes
 
-### Benchmark Comparisons
+Our optimization efforts across different SAM variants achieved significant improvements:
 
-```python
-# Performance metrics across different optimization strategies
-
-optimization_results = {
-    'baseline_vit_h': {
-        'model_size_gb': 2.4,
-        'inference_time_ms': 3200,
-        'memory_usage_gb': 8.2,
-        'accuracy_miou': 0.892
-    },
-    
-    'baseline_vit_b': {
-        'model_size_gb': 0.375,
-        'inference_time_ms': 1100,
-        'memory_usage_gb': 3.1,
-        'accuracy_miou': 0.867
-    },
-    
-    'quantized_vit_b': {
-        'model_size_gb': 0.094,  # 4x smaller
-        'inference_time_ms': 750,
-        'memory_usage_gb': 1.8,
-        'accuracy_miou': 0.861   # Minimal accuracy loss
-    },
-    
-    'tensorrt_vit_b': {
-        'model_size_gb': 0.125,
-        'inference_time_ms': 180,  # 6x faster
-        'memory_usage_gb': 2.2,
-        'accuracy_miou': 0.864
-    },
-    
-    'distilled_mobile': {
-        'model_size_gb': 0.045,
-        'inference_time_ms': 95,
-        'memory_usage_gb': 0.8,
-        'accuracy_miou': 0.834   # Acceptable for many use cases
-    }
-}
-```
-
-### Production Metrics
-
-After 6 months of production deployment:
-
-- **Throughput**: 500+ images processed per minute per GPU
-- **Latency**: P95 latency under 200ms for real-time applications
-- **Accuracy**: 94.5% precision on material defect detection
-- **Cost Efficiency**: 75% reduction in inference costs vs. baseline
-- **Uptime**: 99.8% service availability
+- **Model Compression**: Quantization and distillation reduced model sizes substantially
+- **Inference Acceleration**: TensorRT optimization provided major speed improvements
+- **Memory Efficiency**: Optimized variants reduced VRAM requirements
+- **Production Deployment**: Successful deployment with high throughput and availability
 
 ## Advanced Applications
 

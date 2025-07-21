@@ -54,12 +54,6 @@ We developed a custom architecture that combines features from different scales,
 ### 3. Domain-Specific Data Augmentation
 Traditional augmentation techniques don't work well for material images. We created physics-informed augmentation strategies that maintain material realism.
 
-## Results and Impact
-
-- **95% accuracy** in defect detection across 12 material types
-- **10x faster** analysis compared to manual inspection
-- **Reduced material waste** by 23% through early defect detection
-- **Automated quality reports** saving 40 hours/week of scientist time
 
 ## Lessons Learned
 

@@ -16,11 +16,11 @@ Processing millions of events per minute while maintaining sub-second query resp
 ## The Challenge: Real-Time at Scale
 
 Our client needed to process:
-- **50M+ user interactions per day**
-- **Peak traffic of 10K events/second**  
-- **Sub-second dashboard updates**
+- **Large volumes of user interactions daily**
+- **High peak traffic loads**  
+- **Real-time dashboard updates**
 - **Complex multi-dimensional aggregations**
-- **99.9% uptime requirements**
+- **High uptime requirements**
 - **Cost-effective scaling**
 
 The existing batch processing system took 6 hours to generate reports, making it impossible to respond to trends, detect anomalies, or optimize user experience in real-time.
@@ -857,37 +857,6 @@ groups:
       description: "Event ingestion rate is {{ $value }} events/second"
 ```
 
-## Results and Impact
-
-### Performance Metrics
-
-- **Event Processing Rate**: 50,000 events/second sustained throughput
-- **End-to-end Latency**: Sub-3 second from click to dashboard update
-- **Query Response Time**: 95% of queries under 200ms
-- **System Availability**: 99.95% uptime over 6 months
-- **Data Retention**: 30 days of queryable hot data, 6 months warm storage
-
-### Business Impact
-
-- **Real-time Optimization**: A/B tests can be evaluated in minutes instead of days
-- **Anomaly Detection**: Immediate alerts for traffic drops or conversion issues
-- **Personalization**: Real-time user behavior feeds recommendation engines
-- **Cost Efficiency**: 60% reduction in infrastructure costs vs. previous batch system
-
-### Scale Achievements
-
-```python
-# System capacity metrics
-{
-    'peak_events_per_second': 52000,
-    'average_daily_events': 45000000,
-    'elasticsearch_indices': 180,  # 6 months of daily indices
-    'total_documents': 8500000000,
-    'storage_size_tb': 12.5,
-    'query_cache_hit_rate': 0.89,
-    'index_refresh_time_ms': 450
-}
-```
 
 ## Lessons Learned
 

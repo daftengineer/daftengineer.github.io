@@ -322,43 +322,10 @@ class MultiObjectiveMAB:
                 self.bandits[objective].update(arm, reward)
 ```
 
-## Results and Impact
-
-### Performance Improvements
-
-After 3 months of deployment:
-
-- **35% increase in click-through rate** compared to best static algorithm
-- **28% improvement in conversion rate**  
-- **42% reduction in time-to-optimal** algorithm selection
-- **15% increase in user engagement** metrics
 
 ### Traffic Allocation Evolution
 
-The bandit learned to allocate traffic dynamically:
-
-```python
-# Week 1: Equal exploration
-{
-    'collab_filter': 33%,
-    'content_based': 33%,
-    'hybrid': 34%
-}
-
-# Week 4: Clear preference emerging
-{
-    'collab_filter': 15%,
-    'content_based': 25%,
-    'hybrid': 60%
-}
-
-# Week 12: Converged allocation
-{
-    'collab_filter': 8%,
-    'content_based': 12%,
-    'hybrid': 80%
-}
-```
+The bandit learned to allocate traffic dynamically, gradually shifting from equal exploration to favoring the best-performing algorithm while maintaining some exploration of alternatives.
 
 ### Segment-Specific Insights
 

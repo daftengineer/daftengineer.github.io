@@ -189,13 +189,6 @@ Managing costs across 8 clusters required sophisticated approaches:
 3. **Cluster Consolidation**: Off-peak workload scheduling
 4. **Resource Scheduling**: Time-based scaling for predictable workloads
 
-## Key Metrics and Results
-
-- **99.9% uptime** across all regions
-- **Sub-50ms P95 latency** for model inference
-- **40% cost reduction** through optimization initiatives
-- **Zero security incidents** during SOC2 audits
-- **10x faster** model deployment cycles
 
 ## Lessons Learned
 

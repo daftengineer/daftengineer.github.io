@@ -15,15 +15,15 @@ Processing millions of IoT sensor readings per second while maintaining sub-seco
 
 ## The IoT Analytics Challenge
 
-Our industrial IoT platform needed to process data from 100,000+ sensors across manufacturing facilities:
+Our industrial IoT platform needed to process data from a large number of sensors across manufacturing facilities:
 
-- **Volume**: 10M+ sensor readings per minute
+- **Volume**: High volume of sensor readings per minute
 - **Velocity**: Sub-second processing for critical alerts
-- **Variety**: 50+ sensor types with different schemas
+- **Variety**: Multiple sensor types with different schemas
 - **Fault Tolerance**: Exactly-once processing guarantees
-- **Scalability**: Handle 10x traffic spikes during peak production
-- **Low Latency**: P95 latency under 500ms for anomaly detection
-- **Cost Efficiency**: Process 50TB+ daily within budget constraints
+- **Scalability**: Handle significant traffic spikes during peak production
+- **Low Latency**: Fast processing for anomaly detection
+- **Cost Efficiency**: Process large amounts of daily data within budget constraints
 
 Traditional batch processing couldn't meet real-time requirements, and simple stream processors couldn't handle the scale and complexity.
 
@@ -1081,64 +1081,32 @@ class StreamingMonitor:
         self.monitoring_active = False
 ```
 
-## Production Results and Impact
+## Production Impact
 
-### Performance Achievements
+The real-time streaming analytics platform delivered substantial value across multiple dimensions:
 
-```python
-# Production metrics after 6 months deployment
-production_results = {
-    'data_processing_volume': {
-        'daily_records': 450_000_000,
-        'peak_records_per_second': 45_000,
-        'average_records_per_second': 5_200,
-        'total_data_size_tb_daily': 52.3
-    },
-    
-    'latency_performance': {
-        'end_to_end_p50_ms': 180,
-        'end_to_end_p95_ms': 420,
-        'end_to_end_p99_ms': 850,
-        'anomaly_detection_p95_ms': 230,
-        'alert_delivery_p95_ms': 650
-    },
-    
-    'reliability_metrics': {
-        'uptime_percentage': 99.94,
-        'exactly_once_accuracy': 99.99,
-        'data_loss_incidents': 0,
-        'false_positive_rate': 2.3,
-        'false_negative_rate': 0.8
-    },
-    
-    'cost_efficiency': {
-        'processing_cost_per_tb': 8.50,  # USD
-        'infrastructure_reduction_percent': 45,
-        'operational_overhead_hours_per_week': 3.2,
-        'cost_savings_monthly_usd': 28_500
-    },
-    
-    'business_impact': {
-        'equipment_downtime_reduction_percent': 34,
-        'maintenance_cost_savings_percent': 23,
-        'energy_efficiency_improvement_percent': 12,
-        'product_quality_improvement_percent': 8.7,
-        'safety_incidents_reduction_percent': 67
-    }
-}
-```
+### System Performance
 
-### Scale and Reliability
+The platform achieved excellent performance characteristics:
 
-Production deployment across 15 manufacturing facilities:
+- **High Throughput**: Sustained processing of large volumes of sensor data
+- **Low Latency**: Fast end-to-end processing for critical alerting
+- **High Reliability**: Excellent uptime with exactly-once processing guarantees
+- **Cost Effectiveness**: Significant infrastructure cost reduction while improving performance
 
-- **Sensors Monitored**: 125,000+ IoT sensors
-- **Data Centers**: 3 AWS regions with cross-region replication
-- **Spark Cluster**: 50 nodes (200 cores, 800GB RAM)
-- **Kafka Throughput**: 2.3M messages/second peak
-- **Storage**: 180TB in Delta Lake format
-- **Real-time Dashboards**: 45 operational dashboards
-- **Alert Channels**: Slack, email, SMS, mobile push notifications
+### Business Benefits
+
+The real-time insights enabled significant operational improvements:
+
+- **Equipment Reliability**: Substantial reduction in unplanned downtime
+- **Maintenance Optimization**: Predictive maintenance reducing costs
+- **Energy Efficiency**: Improved energy utilization across facilities
+- **Product Quality**: Enhanced quality control through real-time monitoring
+- **Safety**: Dramatically improved safety incident prevention
+
+### Scale and Architecture
+
+Production deployment across multiple manufacturing facilities with robust infrastructure supporting comprehensive monitoring and alerting capabilities.
 
 ## Advanced Optimization Techniques
 

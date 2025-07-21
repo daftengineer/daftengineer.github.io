@@ -144,14 +144,13 @@ generated_materials = model.sample(
 )
 ```
 
-**Results**: 15% improvement in power conversion efficiency predictions
 
 ### 3. Superalloy Design
 
 For aerospace applications requiring high-temperature strength:
 
 - **Generated 500 novel compositions** in the Ni-Al-Ti-Cr system
-- **Predicted creep resistance** 2x better than current superalloys  
+- **Predicted creep resistance** better than current superalloys  
 - **Synthesis conditions** optimized for industrial scalability
 
 ## Integration with Experimental Workflows
@@ -200,12 +199,6 @@ class AutoDiscoveryLoop:
 - **Challenge**: Large gap between computational predictions and lab results  
 - **Solution**: Active learning loop with continuous model improvement
 
-## Real-World Impact
-
-- **Patent Applications**: 12 filed for novel material compositions
-- **Industry Partnerships**: 3 companies licensing generated materials
-- **Publication Pipeline**: 8 papers in review at Nature Materials, Science
-- **Cost Savings**: $2M+ saved in avoided experimental synthesis
 
 ## Future Directions
 

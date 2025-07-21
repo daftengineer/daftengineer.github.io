@@ -17,8 +17,8 @@ GPUs are expensive. In our Kubernetes clusters, we were seeing 60% GPU utilizati
 
 Our ML platform was burning money. Across 8 EKS clusters, we had:
 
-- **200+ GPU nodes** (mix of P3, P4, and G4 instances)
-- **$50k+ monthly GPU costs** with low utilization
+- **Large number of GPU nodes** (mix of P3, P4, and G4 instances)
+- **High monthly GPU costs** with low utilization
 - **Long job queues** despite idle GPU capacity
 - **Frustrated ML engineers** waiting for resources
 - **Inconsistent performance** across different workload types
@@ -532,43 +532,21 @@ class GPUAutoScaler:
         return best_instance
 ```
 
-## Results and Impact
+## Key Outcomes
 
-### Cost Optimization
+The GPU optimization initiative delivered significant improvements across multiple dimensions:
 
-- **40% reduction in GPU costs** ($50k → $30k monthly)
-- **3x improvement in GPU utilization** (60% → 180% effective utilization through sharing)
-- **65% reduction in job queue wait times**
-- **25% increase in ML engineer productivity**
-
-### Performance Metrics
-
-```python
-# Before optimization
-{
-    'average_gpu_utilization': 0.6,
-    'average_queue_wait_time_minutes': 45,
-    'jobs_completed_per_day': 120,
-    'cost_per_completed_job': 25.5,
-    'gpu_sharing_ratio': 1.0
-}
-
-# After optimization  
-{
-    'average_gpu_utilization': 0.85,
-    'average_queue_wait_time_minutes': 12,
-    'jobs_completed_per_day': 280,
-    'cost_per_completed_job': 12.2,
-    'gpu_sharing_ratio': 2.8
-}
-```
+- **Substantial cost reduction** in monthly GPU spending
+- **Major improvement in GPU utilization** through intelligent sharing
+- **Reduced job queue wait times**
+- **Increased ML engineer productivity**
 
 ### Workload-Specific Improvements
 
-- **Training Jobs**: 15% faster completion through better resource allocation
-- **Inference Services**: 300% improvement in pods-per-GPU density
-- **Notebooks**: 80% reduction in resource waste during idle periods
-- **Batch Processing**: 45% improvement in throughput
+- **Training Jobs**: Faster completion through better resource allocation
+- **Inference Services**: Significant improvement in pods-per-GPU density
+- **Notebooks**: Reduced resource waste during idle periods
+- **Batch Processing**: Improved throughput
 
 ## Advanced Monitoring
 
