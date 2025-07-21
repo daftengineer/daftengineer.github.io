@@ -1,5 +1,5 @@
 ---
-title: A data ingestion pipeline to take in data from API source of simulated wind farm to timescaleDB
+title: A Data Ingestion Pipeline to Take in Data from API Source of Simulated Wind Farm to TimescaleDB
 tags: rabitmq timescaledb go python fastapi pydantic
 ---
 
