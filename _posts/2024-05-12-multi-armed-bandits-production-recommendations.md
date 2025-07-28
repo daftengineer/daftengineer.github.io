@@ -9,18 +9,24 @@ article_header:
     gradient: 'linear-gradient(135deg, rgba(5, 150, 105, .4), rgba(168, 85, 247, .4))'
 ---
 
-Traditional A/B testing locks you into static experiments for weeks or months. But what if your recommendation system could learn and adapt in real-time, automatically shifting traffic to better-performing variants? Enter multi-armed bandits with Thompson sampling—a principled approach to balancing exploration and exploitation that transformed our recommendation engine's performance.
+Running A/B tests on our recommendation system was painful. 6-8 weeks per test, half our users stuck with potentially terrible recommendations, and by the time we got results, user behavior had already changed. I needed something smarter that could adapt in real-time.
 
 <!--more-->
 
-## The Problem with Static A/B Tests
+## Why A/B Testing Was Failing Us
 
-Our e-commerce client was running traditional A/B tests for their product recommendation algorithm. They had three variants:
-- **Collaborative Filtering**: User-based recommendations
-- **Content-Based**: Item feature similarity  
-- **Hybrid Approach**: Combination of both methods
+We had three recommendation algorithms to test:
+- Collaborative filtering (users who bought X also bought Y)
+- Content-based (recommend similar items)
+- Hybrid approach (combination of both)
 
-The challenge? Each test took 6-8 weeks to reach statistical significance, during which 50% of users were stuck with potentially inferior recommendations. Meanwhile, business conditions changed, seasonal patterns emerged, and user preferences evolved—but their testing framework couldn't adapt.
+The old process was brutal:
+- Wait 6-8 weeks for statistical significance
+- Keep 50% of users on potentially bad recommendations the whole time
+- By the time results came in, seasonal trends had shifted
+- Start the whole process over with new variants
+
+Meanwhile, our conversion rates were suffering because we couldn't adapt quickly enough.
 
 ## Multi-Armed Bandits: Adaptive Experimentation
 

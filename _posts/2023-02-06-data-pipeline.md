@@ -3,18 +3,22 @@ title: A Data Ingestion Pipeline to Take in Data from API Source of Simulated Wi
 tags: rabitmq timescaledb go python fastapi pydantic
 ---
 
-Here in this article I am showing the sample data pipeline that takes in the data from API in file or record format and send it to fastapi server to process the request and connect to timescaleDB. The message broker used here is rabbitMQ.
-All the code is packaged in dockerfiles and runs with just one command. Repo for the code can be found at [here](https://github.com/daftengineer/data-ingestion)
+I built this wind farm data pipeline as a proof of concept for ingesting sensor data at scale. The setup uses FastAPI, RabbitMQ, and TimescaleDB - all containerized so you can spin it up with one command.
+
+Full code is at [github.com/daftengineer/data-ingestion](https://github.com/daftengineer/data-ingestion)
 
 Once it is built you can just do 
 ```
 docker-compose up --build
 ```
 
-## Observations
+## How It Works
 
-The data I received had only 3 hours of data so multiday query and aggregates were difficult. I havent worked on timescaledb so I couldn't fully utilize it. (It has fancy sublinear functions that I am quite interested)
-1. Flow of data. API req -> API_SERVER -> Rabbitmq -> consumer -> timescaledb. Below command should ingest the data for given dataset
+The sample dataset only had 3 hours of data, so I couldn't test the time-series aggregation features I wanted to try. Also, this was my first time with TimescaleDB, so I'm definitely not using all its capabilities (those compression functions look interesting though).
+
+Data flow: API request → FastAPI server → RabbitMQ → consumer → TimescaleDB
+
+To ingest data from a CSV file:
 ```
 curl -F "file=@solarfarm01.csv;type=text/csv" http://127.0.0.1:8000/ingest_from_file -X POST -H "customer_name: adani" -H "asset_name: A01"
 ```
