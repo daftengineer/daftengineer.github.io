@@ -1,5 +1,5 @@
 ---
-title: Leading AI Engineering Teams - Building Production Computer Vision Systems at Scale
+title: Lessons from Building a Production Computer Vision System for Materials Analysis
 tags: computer-vision ai-leadership production-systems yolo sam diffusion-models materials-science gpu-optimization
 article_header:
   type: overlay
