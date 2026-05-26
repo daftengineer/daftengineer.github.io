@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jahnvi's Homemade Aam Panna</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Lora:ital,wght@0,400;0,600;1,400&family=Pacifico&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --cream: #f5f0e1;
+    --deep-green: #1a4a1a;
+    --mid-green: #2d6a2d;
+    --leaf-green: #4a8c3f;
+    --mango-yellow: #f5c518;
+    --mango-orange: #f4a226;
+    --brown: #5c2e0a;
+    --light-cream: #faf7ee;
+    --shadow: rgba(26,74,26,0.15);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background-color: var(--deep-green);
+    font-family: 'Lora', serif;
+    overflow-x: hidden;
+  }
+
+  /* ─── ANIMATED BG LEAVES ─── */
+  .bg-leaves {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    pointer-events: none; z-index: 0; overflow: hidden;
+  }
+  .bg-leaf {
+    position: absolute;
+    opacity: 0.07;
+    animation: floatLeaf 12s ease-in-out infinite;
+  }
+  .bg-leaf:nth-child(1) { top: 10%; left: 5%; animation-delay: 0s; }
+  .bg-leaf:nth-child(2) { top: 30%; right: 8%; animation-delay: 2s; }
+  .bg-leaf:nth-child(3) { top: 60%; left: 3%; animation-delay: 4s; }
+  .bg-leaf:nth-child(4) { bottom: 15%; right: 5%; animation-delay: 6s; }
+  .bg-leaf:nth-child(5) { top: 75%; left: 50%; animation-delay: 3s; }
+  @keyframes floatLeaf {
+    0%,100% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-20px) rotate(8deg); }
+  }
+
+  /* ─── HERO ─── */
+  .hero {
+    position: relative; z-index: 1;
+    min-height: 100vh;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    padding: 60px 20px 40px;
+    background: radial-gradient(ellipse at 50% 40%, #2d6a2d 0%, #1a4a1a 60%, #0f2e0f 100%);
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%234a8c3f' fill-opacity='0.08'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    z-index: 0;
+  }
+
+  .tagline-top {
+    position: relative; z-index: 2;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    color: var(--mango-yellow);
+    font-size: 1rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+    opacity: 0;
+    animation: fadeUp 0.8s ease forwards 0.3s;
+  }
+
+  /* ─── SVG LOGO ─── */
+  .logo-wrap {
+    position: relative; z-index: 2;
+    opacity: 0;
+    animation: fadeUp 1s ease forwards 0.6s;
+    filter: drop-shadow(0 20px 60px rgba(0,0,0,0.5));
+  }
+  .logo-svg { width: min(360px, 80vw); height: auto; }
+
+  .hero-subtitle {
+    position: relative; z-index: 2;
+    margin-top: 36px;
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.1rem, 3vw, 1.6rem);
+    color: var(--cream);
+    text-align: center;
+    max-width: 500px;
+    line-height: 1.6;
+    opacity: 0;
+    animation: fadeUp 0.8s ease forwards 1s;
+  }
+  .hero-subtitle em { color: var(--mango-yellow); font-style: normal; }
+
+  .scroll-hint {
+    position: relative; z-index: 2;
+    margin-top: 48px;
+    display: flex; flex-direction: column; align-items: center; gap: 8px;
+    opacity: 0;
+    animation: fadeUp 0.8s ease forwards 1.4s;
+    color: rgba(245,240,225,0.5);
+    font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase;
+  }
+  .scroll-arrow {
+    width: 24px; height: 24px;
+    border-right: 2px solid var(--mango-yellow);
+    border-bottom: 2px solid var(--mango-yellow);
+    transform: rotate(45deg);
+    animation: bounce 1.5s ease infinite;
+  }
+  @keyframes bounce { 0%,100% { transform: rotate(45deg) translateY(0); } 50% { transform: rotate(45deg) translateY(6px); } }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ─── DIVIDER ─── */
+  .divider {
+    position: relative; z-index: 1;
+    width: 100%;
+    background: var(--mango-orange);
+    padding: 18px 0;
+    overflow: hidden;
+    display: flex; align-items: center; gap: 0;
+  }
+  .divider-track {
+    display: flex; gap: 48px;
+    animation: ticker 18s linear infinite;
+    white-space: nowrap;
+  }
+  .divider-track span {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.95rem; font-weight: 700;
+    color: var(--deep-green);
+    text-transform: uppercase; letter-spacing: 0.1em;
+  }
+  .divider-track span::before { content: '✦ '; }
+  @keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+  /* ─── SECTION COMMONS ─── */
+  section {
+    position: relative; z-index: 1;
+    padding: 80px 20px;
+  }
+  .section-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .section-label {
+    font-family: 'Lora', serif; font-style: italic;
+    color: var(--mango-yellow);
+    font-size: 0.85rem; letter-spacing: 0.35em; text-transform: uppercase;
+    margin-bottom: 12px;
+    display: block;
+  }
+  .section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2rem, 5vw, 3rem);
+    color: var(--cream);
+    line-height: 1.15;
+    margin-bottom: 16px;
+  }
+  .section-title .accent { color: var(--mango-yellow); }
+
+  /* ─── WHAT IS AAM PANNA ─── */
+  .what-section {
+    background: var(--light-cream);
+  }
+  .what-section .section-title { color: var(--deep-green); }
+  .what-section .section-label { color: var(--mango-orange); }
+  .what-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    margin-top: 40px;
+  }
+  @media(max-width:700px) { .what-grid { grid-template-columns: 1fr; gap: 32px; } }
+
+  .what-text p {
+    color: var(--brown);
+    font-size: 1.05rem; line-height: 1.85;
+    margin-bottom: 16px;
+  }
+  .what-text strong { color: var(--deep-green); }
+
+  .mango-illustration {
+    display: flex; justify-content: center; align-items: center;
+  }
+
+  /* ─── BENEFITS ─── */
+  .benefits-section {
+    background: linear-gradient(160deg, #1a4a1a 0%, #0f2e0f 100%);
+  }
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+    margin-top: 48px;
+  }
+  .benefit-card {
+    background: rgba(245,240,225,0.06);
+    border: 1px solid rgba(245,240,225,0.12);
+    border-radius: 16px;
+    padding: 32px 24px;
+    transition: transform 0.3s, background 0.3s;
+    cursor: default;
+  }
+  .benefit-card:hover {
+    transform: translateY(-6px);
+    background: rgba(245,240,225,0.11);
+  }
+  .benefit-icon {
+    font-size: 2.4rem; margin-bottom: 16px; display: block;
+  }
+  .benefit-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem; color: var(--mango-yellow);
+    margin-bottom: 10px;
+  }
+  .benefit-card p {
+    font-size: 0.92rem; color: rgba(245,240,225,0.75); line-height: 1.7;
+  }
+
+  /* ─── INGREDIENTS STRIP ─── */
+  .ingredients-section {
+    background: var(--cream);
+  }
+  .ingredients-section .section-title { color: var(--deep-green); }
+  .ingredients-section .section-label { color: var(--mango-orange); }
+  .ingredients-list {
+    display: flex; flex-wrap: wrap; gap: 14px;
+    margin-top: 36px;
+  }
+  .ingredient-pill {
+    background: var(--deep-green);
+    color: var(--cream);
+    padding: 10px 22px;
+    border-radius: 50px;
+    font-family: 'Playfair Display', serif;
+    font-size: 0.95rem;
+    display: flex; align-items: center; gap: 8px;
+    transition: background 0.2s, transform 0.2s;
+  }
+  .ingredient-pill:hover { background: var(--mango-orange); color: var(--deep-green); transform: scale(1.04); }
+  .ingredient-pill .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--mango-yellow); }
+  .ingredient-pill:hover .dot { background: var(--deep-green); }
+
+  /* ─── IMPORTANCE BANNER ─── */
+  .importance-section {
+    background: var(--mango-orange);
+    padding: 60px 20px;
+  }
+  .importance-inner {
+    max-width: 900px; margin: 0 auto; text-align: center;
+  }
+  .importance-inner h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: clamp(2rem, 6vw, 3.5rem);
+    color: var(--deep-green);
+    margin-bottom: 24px;
+    line-height: 1.2;
+  }
+  .importance-inner p {
+    font-size: 1.1rem;
+    color: var(--brown);
+    line-height: 1.8;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .stats-row {
+    display: flex; flex-wrap: wrap; justify-content: center; gap: 40px;
+    margin-top: 48px;
+  }
+  .stat-box {
+    text-align: center;
+  }
+  .stat-box .num {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem; font-weight: 900;
+    color: var(--deep-green);
+    line-height: 1;
+  }
+  .stat-box .stat-label {
+    font-size: 0.85rem;
+    color: var(--brown);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 6px;
+  }
+
+  /* ─── HOW TO SERVE ─── */
+  .serve-section {
+    background: #0f2e0f;
+  }
+  .serve-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0;
+    margin-top: 48px;
+    border: 1px solid rgba(245,240,225,0.1);
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  .serve-step {
+    padding: 36px 28px;
+    border-right: 1px solid rgba(245,240,225,0.08);
+    position: relative;
+  }
+  .serve-step:last-child { border-right: none; }
+  .serve-step .step-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem; font-weight: 900;
+    color: rgba(245,193,24,0.15);
+    line-height: 1;
+    margin-bottom: 12px;
+  }
+  .serve-step h4 {
+    font-family: 'Playfair Display', serif;
+    color: var(--mango-yellow);
+    font-size: 1.05rem;
+    margin-bottom: 8px;
+  }
+  .serve-step p {
+    font-size: 0.88rem;
+    color: rgba(245,240,225,0.65);
+    line-height: 1.65;
+  }
+
+  /* ─── FOOTER CTA ─── */
+  .footer-cta {
+    background: var(--deep-green);
+    text-align: center;
+    padding: 80px 20px 60px;
+    border-top: 2px solid var(--mango-yellow);
+  }
+  .footer-cta h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: clamp(1.8rem, 5vw, 3rem);
+    color: var(--cream);
+    margin-bottom: 16px;
+  }
+  .footer-cta p {
+    color: rgba(245,240,225,0.65);
+    font-size: 1rem;
+    max-width: 480px;
+    margin: 0 auto 36px;
+    line-height: 1.7;
+  }
+  .cta-btn {
+    display: inline-block;
+    background: var(--mango-yellow);
+    color: var(--deep-green);
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 16px 44px;
+    border-radius: 50px;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    transition: transform 0.2s, background 0.2s;
+  }
+  .cta-btn:hover { background: var(--mango-orange); transform: scale(1.04); }
+  .footer-bottom {
+    margin-top: 60px;
+    color: rgba(245,240,225,0.3);
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+  }
+
+  /* Scroll reveal */
+  .reveal {
+    opacity: 0; transform: translateY(40px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+  .reveal-delay-1 { transition-delay: 0.15s; }
+  .reveal-delay-2 { transition-delay: 0.3s; }
+  .reveal-delay-3 { transition-delay: 0.45s; }
+</style>
+</head>
+<body>
+
+<!-- Floating BG leaves -->
+<div class="bg-leaves">
+  <svg class="bg-leaf" width="120" height="120" viewBox="0 0 120 120"><path d="M60 10 C20 30, 10 80, 60 110 C110 80, 100 30, 60 10Z" fill="#4a8c3f"/></svg>
+  <svg class="bg-leaf" width="180" height="180" viewBox="0 0 120 120"><path d="M60 10 C20 30, 10 80, 60 110 C110 80, 100 30, 60 10Z" fill="#4a8c3f"/></svg>
+  <svg class="bg-leaf" width="140" height="140" viewBox="0 0 120 120"><path d="M60 10 C20 30, 10 80, 60 110 C110 80, 100 30, 60 10Z" fill="#2d6a2d"/></svg>
+  <svg class="bg-leaf" width="100" height="100" viewBox="0 0 120 120"><path d="M60 10 C20 30, 10 80, 60 110 C110 80, 100 30, 60 10Z" fill="#4a8c3f"/></svg>
+  <svg class="bg-leaf" width="160" height="160" viewBox="0 0 120 120"><path d="M60 10 C20 30, 10 80, 60 110 C110 80, 100 30, 60 10Z" fill="#2d6a2d"/></svg>
+</div>
+
+<!-- ═══════════════ HERO ═══════════════ -->
+<section class="hero">
+  <span class="tagline-top">✦ Pure · Natural · Refreshing ✦</span>
+
+  <!-- SVG LOGO (recreated from the image) -->
+  <div class="logo-wrap">
+    <svg class="logo-svg" viewBox="0 0 400 460" xmlns="http://www.w3.org/2000/svg">
+      <!-- Oval background -->
+      <ellipse cx="200" cy="230" rx="190" ry="220" fill="#f5f0e1"/>
+      <!-- Outer dashed border -->
+      <ellipse cx="200" cy="230" rx="175" ry="205" fill="none" stroke="#2d6a2d" stroke-width="2" stroke-dasharray="8,6"/>
+      <!-- Inner oval ring -->
+      <ellipse cx="200" cy="230" rx="168" ry="197" fill="none" stroke="#2d6a2d" stroke-width="1.5"/>
+
+      <!-- Leaf sprouts top of J -->
+      <g transform="translate(152, 52)">
+        <path d="M0 0 C-6-12,-2-22,8-20 C6-8,0,0,0,0Z" fill="#2d6a2d"/>
+        <path d="M0 0 C6-12,2-22,-8-20 C-6-8,0,0,0,0Z" fill="#4a8c3f"/>
+      </g>
+
+      <!-- "Jahnvi's" script text -->
+      <text x="200" y="120" text-anchor="middle"
+        font-family="Brush Script MT, Segoe Script, cursive"
+        font-size="54" font-weight="bold"
+        fill="#1a4a1a">Jahnvi's</text>
+
+      <!-- Yellow sunburst left -->
+      <g transform="translate(42,152)">
+        <line x1="0" y1="0" x2="-10" y2="-8" stroke="#f5c518" stroke-width="3" stroke-linecap="round"/>
+        <line x1="0" y1="0" x2="-13" y2="0" stroke="#f5c518" stroke-width="3" stroke-linecap="round"/>
+        <line x1="0" y1="0" x2="-10" y2="8" stroke="#f5c518" stroke-width="3" stroke-linecap="round"/>
+      </g>
+      <!-- Yellow sunburst right -->
+      <g transform="translate(358,152)">
+        <line x1="0" y1="0" x2="10" y2="-8" stroke="#f5c518" stroke-width="3" stroke-linecap="round"/>
+        <line x1="0" y1="0" x2="13" y2="0" stroke="#f5c518" stroke-width="3" stroke-linecap="round"/>
+        <line x1="0" y1="0" x2="10" y2="8" stroke="#f5c518" stroke-width="3" stroke-linecap="round"/>
+      </g>
+
+      <!-- Hearts and dashes for HOME MADE -->
+      <text x="60" y="158" text-anchor="start" font-family="serif" font-size="14" fill="#5c2e0a">— ♥</text>
+      <text x="200" y="158" text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="20" font-weight="bold" letter-spacing="4"
+        fill="#5c2e0a">HOME MADE</text>
+      <text x="340" y="158" text-anchor="end" font-family="serif" font-size="14" fill="#5c2e0a">♥ —</text>
+
+      <!-- AAM large bold distressed -->
+      <text x="200" y="270" text-anchor="middle"
+        font-family="Impact, 'Arial Black', sans-serif"
+        font-size="122" font-weight="900" letter-spacing="-2"
+        fill="#1a4a1a" opacity="0.92">AAM</text>
+      <!-- Texture overlay on AAM -->
+      <text x="200" y="270" text-anchor="middle"
+        font-family="Impact, 'Arial Black', sans-serif"
+        font-size="122" font-weight="900" letter-spacing="-2"
+        fill="#f5f0e1" opacity="0.15"
+        style="filter: url(#noise)">AAM</text>
+
+      <!-- panna script -->
+      <text x="200" y="348" text-anchor="middle"
+        font-family="Brush Script MT, Segoe Script, cursive"
+        font-size="72" font-weight="bold"
+        fill="#1a4a1a">panna</text>
+
+      <!-- Leaf branch bottom right of panna -->
+      <g transform="translate(306,320)">
+        <path d="M0 0 C15 5, 25 0, 30-10" stroke="#2d6a2d" stroke-width="2" fill="none"/>
+        <path d="M8-2 C10-10,18-12,18-6 C14-2,8-2,8-2Z" fill="#4a8c3f"/>
+        <path d="M18-5 C20-13,28-14,27-8 C23-4,18-5,18-5Z" fill="#2d6a2d"/>
+        <path d="M26-9 C28-17,34-16,33-10 C29-6,26-9,26-9Z" fill="#4a8c3f"/>
+      </g>
+
+      <!-- Underline swoosh below panna -->
+      <path d="M80 370 Q200 385 320 370" stroke="#1a4a1a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <path d="M90 378 Q200 390 310 378" stroke="#1a4a1a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+      <!-- Bottom heart -->
+      <text x="200" y="415" text-anchor="middle" font-family="serif" font-size="18" fill="#1a4a1a">— ♥ —</text>
+
+      <defs>
+        <filter id="noise">
+          <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" result="noise"/>
+          <feDisplacementMap in="SourceGraphic" in2="noise" scale="3" xChannelSelector="R" yChannelSelector="G"/>
+        </filter>
+      </defs>
+    </svg>
+  </div>
+
+  <p class="hero-subtitle">India's beloved <em>summer elixir</em> — crafted with love, tradition, and the finest raw mangoes.</p>
+
+  <div class="scroll-hint">
+    <span>Discover more</span>
+    <div class="scroll-arrow"></div>
+  </div>
+</section>
+
+<!-- ═══════════════ TICKER ═══════════════ -->
+<div class="divider">
+  <div class="divider-track" id="ticker">
+    <span>100% Natural</span><span>No Preservatives</span><span>Handcrafted</span>
+    <span>Beat the Heat</span><span>Rich in Vitamin C</span><span>Traditional Recipe</span>
+    <span>Homemade Love</span><span>100% Natural</span><span>No Preservatives</span>
+    <span>Handcrafted</span><span>Beat the Heat</span><span>Rich in Vitamin C</span>
+    <span>Traditional Recipe</span><span>Homemade Love</span>
+  </div>
+</div>
+
+<!-- ═══════════════ WHAT IS AAM PANNA ═══════════════ -->
+<section class="what-section">
+  <div class="section-inner">
+    <span class="section-label reveal">The Story</span>
+    <h2 class="section-title reveal reveal-delay-1">What is <span class="accent">Aam Panna?</span></h2>
+    <div class="what-grid">
+      <div class="what-text reveal reveal-delay-2">
+        <p>
+          <strong>Aam Panna</strong> is a quintessential Indian summer drink made from raw green mangoes. For centuries, it has been the go-to remedy and refresher across South Asia during the scorching summer months — a drink passed down through generations with pride.
+        </p>
+        <p>
+          The drink is made by roasting or boiling raw mangoes, then blending them with <strong>cumin, black salt, sugar, and fresh mint</strong> — creating a uniquely tangy, sweet, and deeply cooling beverage unlike anything else.
+        </p>
+        <p>
+          Jahnvi's homemade Aam Panna is crafted in small batches with <strong>zero artificial ingredients</strong>, honouring the original recipe with full heart and care.
+        </p>
+      </div>
+      <div class="mango-illustration reveal reveal-delay-3">
+        <!-- Illustrated mango SVG -->
+        <svg viewBox="0 0 320 340" width="300" xmlns="http://www.w3.org/2000/svg">
+          <!-- Shadow -->
+          <ellipse cx="160" cy="320" rx="90" ry="14" fill="rgba(26,74,26,0.12)"/>
+          <!-- Mango body -->
+          <path d="M160 30 C100 20, 50 80, 60 170 C70 260, 120 310, 160 310 C200 310, 250 260, 260 170 C270 80, 220 20, 160 30Z" fill="#f4a226"/>
+          <!-- Mango highlight -->
+          <path d="M120 70 C105 100, 100 140, 110 180 C95 140, 98 90, 120 70Z" fill="rgba(255,255,255,0.25)"/>
+          <!-- Mango green blush -->
+          <path d="M140 30 C125 28, 95 50, 75 90 C105 55, 135 35, 160 30 C180 25, 200 28, 215 40 C200 30, 175 28, 140 30Z" fill="#6ab04c"/>
+          <!-- Stem -->
+          <rect x="154" y="12" width="12" height="24" rx="5" fill="#5c2e0a"/>
+          <!-- Leaf -->
+          <path d="M166 20 C185 5, 220 10, 215 30 C200 20, 180 18, 166 20Z" fill="#2d6a2d"/>
+          <line x1="166" y1="20" x2="215" y2="30" stroke="#1a4a1a" stroke-width="1.5"/>
+          <!-- Dots texture -->
+          <circle cx="140" cy="150" r="3" fill="rgba(255,255,255,0.2)"/>
+          <circle cx="170" cy="200" r="2" fill="rgba(255,255,255,0.15)"/>
+          <circle cx="150" cy="230" r="2.5" fill="rgba(255,255,255,0.18)"/>
+          <!-- Label band -->
+          <path d="M75 200 Q160 220 245 200 Q240 240 160 255 Q80 240 75 200Z" fill="rgba(26,74,26,0.15)"/>
+          <text x="160" y="233" text-anchor="middle" font-family="Brush Script MT, cursive" font-size="18" fill="#fff" opacity="0.9">Raw Mango</text>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ BENEFITS ═══════════════ -->
+<section class="benefits-section">
+  <div class="section-inner">
+    <span class="section-label reveal">Why Drink It</span>
+    <h2 class="section-title reveal reveal-delay-1">Health Benefits of <span class="accent">Aam Panna</span></h2>
+    <div class="benefits-grid">
+      <div class="benefit-card reveal reveal-delay-1">
+        <span class="benefit-icon">🌡️</span>
+        <h3>Prevents Heat Stroke</h3>
+        <p>Raw mangoes are packed with electrolytes that replenish sodium and potassium lost through sweat, protecting your body from heat exhaustion.</p>
+      </div>
+      <div class="benefit-card reveal reveal-delay-2">
+        <span class="benefit-icon">🍋</span>
+        <h3>Rich in Vitamin C</h3>
+        <p>Raw mangoes contain more Vitamin C than ripe ones — boosting immunity, improving skin health, and fighting free radicals naturally.</p>
+      </div>
+      <div class="benefit-card reveal reveal-delay-3">
+        <span class="benefit-icon">⚡</span>
+        <h3>Instant Energy Boost</h3>
+        <p>A natural source of carbohydrates and essential B vitamins, Aam Panna provides a quick, sustained energy lift without the crash.</p>
+      </div>
+      <div class="benefit-card reveal reveal-delay-1">
+        <span class="benefit-icon">🫁</span>
+        <h3>Aids Digestion</h3>
+        <p>Cumin and black salt in Aam Panna stimulate digestive enzymes, relieve acidity, and help ease bloating and stomach discomfort.</p>
+      </div>
+      <div class="benefit-card reveal reveal-delay-2">
+        <span class="benefit-icon">💧</span>
+        <h3>Deep Hydration</h3>
+        <p>Serves as a powerful hydrator beyond plain water — mineral-rich and flavourful, making it easier to replenish fluids during summer.</p>
+      </div>
+      <div class="benefit-card reveal reveal-delay-3">
+        <span class="benefit-icon">🩸</span>
+        <h3>Supports Blood Health</h3>
+        <p>Iron-rich raw mango helps combat anaemia. Regular consumption can boost haemoglobin levels and improve blood circulation.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ INGREDIENTS ═══════════════ -->
+<section class="ingredients-section">
+  <div class="section-inner">
+    <span class="section-label reveal">Inside Every Drop</span>
+    <h2 class="section-title reveal reveal-delay-1" style="color:var(--deep-green)">All-Natural <span style="color:var(--mango-orange)">Ingredients</span></h2>
+    <p class="reveal reveal-delay-2" style="color:var(--brown);font-size:1rem;line-height:1.7;max-width:580px;margin-top:12px;">
+      Every bottle of Jahnvi's Aam Panna is made from ingredients you can recognise — no numbers, no additives, just pure goodness.
+    </p>
+    <div class="ingredients-list reveal reveal-delay-3">
+      <div class="ingredient-pill"><span class="dot"></span> Raw Green Mango</div>
+      <div class="ingredient-pill"><span class="dot"></span> Roasted Cumin</div>
+      <div class="ingredient-pill"><span class="dot"></span> Black Salt (Kala Namak)</div>
+      <div class="ingredient-pill"><span class="dot"></span> Fresh Mint Leaves</div>
+      <div class="ingredient-pill"><span class="dot"></span> Natural Cane Sugar</div>
+      <div class="ingredient-pill"><span class="dot"></span> Rock Salt</div>
+      <div class="ingredient-pill"><span class="dot"></span> Black Pepper</div>
+      <div class="ingredient-pill"><span class="dot"></span> Cardamom</div>
+      <div class="ingredient-pill"><span class="dot"></span> Pure Water</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ IMPORTANCE STATS ═══════════════ -->
+<section class="importance-section">
+  <div class="importance-inner">
+    <h2>Summer's Best Friend,<br>Since Forever.</h2>
+    <p>
+      Aam Panna has been consumed across the Indian subcontinent for over <strong>2,000 years</strong>.
+      Mentioned in Ayurvedic texts as a cooling tonic, it remains one of the most trusted
+      traditional remedies against summer ailments — and one of the most beloved flavours of childhood.
+    </p>
+    <div class="stats-row">
+      <div class="stat-box">
+        <div class="num">2000+</div>
+        <div class="stat-label">Years of Heritage</div>
+      </div>
+      <div class="stat-box">
+        <div class="num">0</div>
+        <div class="stat-label">Artificial Additives</div>
+      </div>
+      <div class="stat-box">
+        <div class="num">6x</div>
+        <div class="stat-label">More Vit-C than lemon</div>
+      </div>
+      <div class="stat-box">
+        <div class="num">100%</div>
+        <div class="stat-label">Homemade with Love</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ HOW TO SERVE ═══════════════ -->
+<section class="serve-section">
+  <div class="section-inner">
+    <span class="section-label reveal">Serving Guide</span>
+    <h2 class="section-title reveal reveal-delay-1">Perfect Every <span class="accent">Time</span></h2>
+    <div class="serve-steps reveal reveal-delay-2">
+      <div class="serve-step">
+        <div class="step-num">01</div>
+        <h4>Chill It</h4>
+        <p>Refrigerate for at least 2 hours before serving. Best enjoyed ice-cold.</p>
+      </div>
+      <div class="serve-step">
+        <div class="step-num">02</div>
+        <h4>Dilute to Taste</h4>
+        <p>Mix 2–3 tablespoons of concentrate with a full glass of chilled water.</p>
+      </div>
+      <div class="serve-step">
+        <div class="step-num">03</div>
+        <h4>Add Ice & Mint</h4>
+        <p>Toss in a few ice cubes and a sprig of fresh mint for extra freshness.</p>
+      </div>
+      <div class="serve-step">
+        <div class="step-num">04</div>
+        <h4>Sip & Savour</h4>
+        <p>Enjoy at midday for the best heat-relief effect. Pairs perfectly with lunch.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ FOOTER CTA ═══════════════ -->
+<footer class="footer-cta">
+  <!-- Small logo repeat -->
+  <svg viewBox="0 0 400 460" width="120" style="margin-bottom:24px;opacity:0.9" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="200" cy="230" rx="190" ry="220" fill="#f5f0e1"/>
+    <ellipse cx="200" cy="230" rx="175" ry="205" fill="none" stroke="#2d6a2d" stroke-width="2" stroke-dasharray="8,6"/>
+    <text x="200" y="120" text-anchor="middle" font-family="Brush Script MT, cursive" font-size="54" font-weight="bold" fill="#1a4a1a">Jahnvi's</text>
+    <text x="200" y="158" text-anchor="middle" font-family="Georgia,serif" font-size="20" font-weight="bold" letter-spacing="4" fill="#5c2e0a">HOME MADE</text>
+    <text x="200" y="270" text-anchor="middle" font-family="Impact, sans-serif" font-size="122" font-weight="900" fill="#1a4a1a" opacity="0.92">AAM</text>
+    <text x="200" y="348" text-anchor="middle" font-family="Brush Script MT, cursive" font-size="72" fill="#1a4a1a">panna</text>
+    <text x="200" y="415" text-anchor="middle" font-family="serif" font-size="18" fill="#1a4a1a">— ♥ —</text>
+  </svg>
+  <h2>Order Your Bottle Today</h2>
+  <p>Handcrafted in small batches. Available while summer lasts. Taste the tradition Jahnvi brings to every drop.</p>
+  <a href="#" class="cta-btn">Get Your Bottle ✦</a>
+  <div class="footer-bottom">
+    © 2026 Jahnvi's Homemade Aam Panna · Made with ♥ and Raw Mangoes
+  </div>
+</footer>
+
+<script>
+  // Scroll reveal
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  revealEls.forEach(el => io.observe(el));
+
+  // Duplicate ticker for seamless loop
+  const track = document.getElementById('ticker');
+  track.innerHTML += track.innerHTML;
+</script>
+</body>
+</html>
